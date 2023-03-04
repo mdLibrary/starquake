@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>06:56:20 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html" class="active">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="065620-gmt-tuesday-21-june-2050"><a class="header" href="#065620-gmt-tuesday-21-june-2050">06:56:20 GMT TUESDAY 21 JUNE 2050</a></h1>
+<p>It was turnfeast, and Time-Circle shuffled listlessly past the foodmats in the faculty dining compound. He took a few staple items from the wide selection, stuffed them in a carrying pouch, picked up a large bag of unfermented pulp juice and made his way to the eating area. Over the topsides of some diners already enjoying their turnfeast, he saw three eyes up on stalks waving at him. He cheered up a little and made his way over to join the newest member of the faculty club, D. C. Neutron-Drip, who had received a Doctorate in Crustallography and chosen a new name only three turns ago.</p>
+<p>Time-Circle had taken part in the ceremony as the senior representative of her in-clan family and had given the clan approval for the name change. The two were the only members of their clan at the Inner Eye Institute, since the clan home was far from Bright's Heaven at the East Pole. He knew from her age that she wasn't from one of his eggs so he didn't have to be concerned about his relationship with her. Now that she was no longer a student, he intended to get to know her better.</p>
+<p>Neutron-Drip moved over as he approached and spread out to share the resting pad with her. Reaching into his pouch, he pulled out his food and set it on the eating mat.</p>
+<p>&quot;What an uninspired turnfeast you have there,&quot; said Neutron-Drip, her eye-stubs waving back and forth in disapproval. &quot;Three ground-meat loaves, two crunch-fruits, and a bag of pulp juice. Turnfeast is supposed to be a feast, not a refueling stop.&quot; She formed a manipulator, picked up a small portion of baked Flow Slow egg covered with a tangy pulp nut sauce and held it before his eating pouch.</p>
+<p>&quot;Here,&quot; she said. &quot;Try this, maybe it will cheer you up.&quot;</p>
+<p>He took the morsel, very much aware of the feel of the strange manipulator in his eating pouch as he did so.</p>
+<p>&quot;It <em>is</em> very tasty. I may have to go back and get some for myself,&quot; he said, his eye-stub pattern assuming a more normal wave-pattern as the taste of the nut sauce penetrated the back of his eating pouch.</p>
+<p>&quot;I thought that would cheer you up,&quot; she said. &quot;What is bothering you?&quot;</p>
+<p>&quot;My research project,&quot; he replied. &quot;It used to be fun, but now it is giving me nothing but trouble.&quot;</p>
+<p>&quot;Is there something wrong with the Time-Comm machine?&quot; she asked.</p>
+<p>&quot;It could be something wrong with the machine or it could be I don't understand the theory well enough yet. Either way I don't get any money for a new 24-channel machine until I figure out what this one is doing. This first machine only has four channels each way and it takes forever to get any data. I even had to turn down a graduate student last turn. He was eager to do research on time communication, and I would have loved to have a bright youngling to work with, but I honestly couldn't allow him to spend the next dozen greats waiting to collect enough data to complete a doctoral project.&quot;</p>
+<p>&quot;I know the student,&quot; said Neutron-Drip. &quot;It was Eager-Eyes. He came to me after you turned him down. He and I are going to set up a crustquake detector array around the East Pole mountains. With any luck, his thesis should establish the basis for a theory to predict East Pole crustquakes.&quot;</p>
+<p>&quot;With a decent-size crustquake every three or four turns at the poles, at least he will have some data to analyze.&quot; Time-Circle sounded dejected. &quot;But why bother predicting crustquakes? Except for a few accidents when a high-speed glide-car hits the ground during a big quake, the only thing a crustquake does is crack a few compound walls or underground utility mains. At least we don't have the problem of a 'roof’ overhead the way the humans do.&quot;</p>
+<p>&quot;You sound just like the grant committee. Always wanting to know, 'What good is it?' &quot; She drew the edges of her tread back. &quot;What good is a new hatchling?&quot;</p>
+<p>&quot;I'm sorry,&quot; he said. &quot;I'm just feeling pessimistic about everything.&quot;</p>
+<p>'Tell me about it,&quot; she said, drawing closer.</p>
+<p>&quot;In the beginning the project was fun,&quot; he began, &quot;I had two bright graduate students. One doing the experiments and one working on the theory. We sent messages back and forth in small increments of time—just a few turns at first. Then we set up a series of progressively larger jumps until we were sending short messages over a whole great of turns. We could code the messages in such a way that the essential data was certain to get through, while the remainder of the message contained codes that allowed us to determine the number of bits the channel was able to pass. We showed that the number of bits the channel could handle was inversely proportional to the distance in time the message was sent. Except for slight statistical variations, the bit-time product was always 864 bit-greats.&quot;</p>
+<p>&quot;So you could send a yes-no answer over 864 greats of turns,&quot; she said.</p>
+<p>&quot;Or 124,416 bits over one turn,&quot; said Time-Circle, his tread <em>'trumming</em> out the familiar train of numbers. &quot;Then, as the climax to both of their doctoral projects, we simultaneously sent messages on the three forward-time channels to times two, three, and four greats into the future. The fourth channel we always keep clear in case an urgent message needs to be sent.&quot;</p>
+<p>Four greats is a long time to wait before you can finish your thesis,&quot; she said.</p>
+<p>&quot;We didn't have to wait at all,&quot; said Time-Circle. &quot;Somewhere there was a minor calibration error between the forward-time channels and the back-time channels. <em>Before</em> we sent out the test signals, we received a response back from the future saying that all the signals had been received and giving the number of bits that had made it through each channel. They all agreed with the theoretical prediction of 864 bit-greats.&quot;</p>
+<p>&quot;But suppose you had then decided <em>not</em> to send the test messages into the future?&quot; she asked.</p>
+<p>&quot;One of the students suggested that,&quot; he replied. &quot;But I had already trod their edges on that subject early in the project. Until we have a theory for these machines so we can understand the implications of creating a paradox, we can't afford to take a chance. <em>My</em> guess is that every major paradox causes a bifurcation of the universe. But it would take a good theory to suggest an experiment that would <em>prove</em> that bifurcation had taken place.&quot;</p>
+<p>&quot;And you have a good theory?&quot; she asked.</p>
+<p>&quot;Until a few turns ago, I thought I did,&quot; he said dejectedly. &quot;Now, I'm not so certain.&quot;</p>
+<p>&quot;What happened?&quot;</p>
+<p>&quot;After the success with the three multi-great transmissions, I had no trouble getting the grant committee to authorize the construction of a 24-channel machine with a greatly increased channel capacity in each channel. Getting the money approved took a while, and while the preliminary design work was underway the time came for the first of the transmissions to be received, the one sent over two greats of turns. The two ex-students as well as members of the grant committee were there as the message came out of the machine from two greats in the past, and they watched as I measured the bit count and sent the confirmation back to myself in the past. I should have quit then.&quot;</p>
+<p>&quot;What happened?&quot;</p>
+<p>&quot;Since I now had two channels free in each direction, I decided to show the committee how the Time-Comm machine worked by sending a message <em>six</em> greats into the future. As I prepared the message for the forward-time channel, I was a little surprised that the back-time channel had not already indicated the message had been received. Thinking that the differential calibration had drifted off so that the back-time channels were now shorter than the forward-time channels, I sent the message off six greats into the future and waited for a reply.&quot;</p>
+<p>&quot;And?&quot;</p>
+<p>&quot;It didn't come,&quot; he said. &quot;I didn't find out what had happened until a great of turns later, long after the grant committee had decided to hold up on the construction of the new machine.&quot;</p>
+<p>They had finished eating, and the faculty dining compound was nearly empty.</p>
+<p>&quot;You have to get back to your work,&quot; he said. &quot;I can't do anything until the next channel clears a few dozen turns from now, so you spread the fields and I'll snuggle along behind and tell you the rest of the sad story.&quot;</p>
+<p>She headed across the grounds of the Institute and he switched to a soft electronic whisper that tickled through her hide.</p>
+<p>&quot;I was really dejected until the time came for the reception of the three-great-long message. That came through on schedule, and I sent the reply through the back-time channel. Almost as soon as the reply was on its way through the channel into the past, the channel was full again with a message from the future, <em>eight</em> greats away. At eight greats time distance, you can only send 108 bits of information, so the message was brief. Both the six great <em>and</em> the eight great messages had been received, but the response to the six-great message had been blocked by some spontaneous emission in the back-time channel.&quot;</p>
+<p>&quot;Spontaneous emission?&quot;</p>
+<p>&quot;That bewildered me at first. My time communication theory, although based on the quantization of space and time, didn't predict any spontaneous emission of signal energy in the channels,&quot; he said. &quot;I brought in a bright theoretical student, and we soon found a third-order effect that could produce spontaneous emission of a bit pair that travels simultaneously backward and forward in time for a short period, then emerges in the receiver. Even though the 'message' is only one bit, that is enough to keep the channel from being used by any other message. It is only supposed to happen once every dozen generations or so, and it had to happen just as I needed that channel to impress the committee.&quot;</p>
+<p>&quot;Did your new results get the committee to resume the work on the 24-channel machine?&quot; she asked.</p>
+<p>They were just as suspicious of the coincidence as I was,&quot; he said. &quot;They decided to wait until we saw the noise in the channel and could learn more about it than could be sent with 108 bits. Sure enough, about 72 turns later, out came a single bit and the channel indicator registered 'Channel Occupied' for almost two greats when suddenly the back-channel was empty and a forward-channel was 'Occupied.' Neither transmitter had activated. I analyzed and re-analyzed everything and was about to approach the committee for restarting the construction of the new machine when the final blow fell.&quot;</p>
+<p>Neutron-Drip stopped moving, and her edges flowed back about his in a semicircular embrace.</p>
+<p>&quot;Last turn I responded to an alarm and found that another back-time channel has noise in it. What is worse, it was not a single bit, but three bits with a nonsense meaning. The chance of spontaneous emission of three bits is infinitesimal. The machine has a noise source. And until we understand it, we shouldn't spend money on a larger machine. But with only four channels, it will take forever to find out what the problem is.&quot;</p>
+<p>&quot;But once you find out, you can send a message back to yourself with the answer ...&quot; she started.</p>
+<p>&quot;There you go, creating paradoxes again,&quot; he said. &quot;If it were possible, 1 would have already done it, and 1 wouldn't be here whispering my troubles into your trailing side.&quot; He moved around her and pushed off across the compound.</p>
+<p>&quot;Enough of my problems,&quot; he said. &quot;How about showing me how you are going to set up that net around the East Pole to trap crustquakes?&quot;</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="quiet2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="quiet4.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="quiet2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="quiet4.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

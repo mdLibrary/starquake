@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>06:58:07.2 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html" class="active">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="0658072-gmt-tuesday-21-june-2050"><a class="header" href="#0658072-gmt-tuesday-21-june-2050">06:58:07.2 GMT TUESDAY 21 JUNE 2050</a></h1>
+<p>&quot;I don't see how things could be any more disastrous,&quot; said Admiral Hohmann-Transfer as she started off the meeting in the main meeting room. It was just after turnfeast, and Cliff-Web was still sucking on a Tiny Shell, trying to get the last morsel out from the spiral cavity. The commander had immediately ordered half-rations when she heard they had been marooned in space.</p>
+<p>&quot;We first have a report from Captain Fixed-Star, Space Operations, East,&quot; Hohmann-Transfer announced. An aging captain moved to the speaker's treadle and activated a display on everyone's taste screen.</p>
+<p>&quot;Our total space force consists of three space stations—East Pole, West Pole, and Polar Orbiting. Nominal permanent crew is twenty-four each. We lost a number of those who happened to be on the ground during the starquake. With no contact from Space Operations Headquarters on Egg, and with retired Admiral Steel-Slicer off on the call-back mission with Captain Far-Ranger, Admiral Hohmann-Transfer, as ranking active officer, is Acting Commander of all Space Operations.</p>
+<p>&quot;In addition to the assigned space force personnel, we have 16 civilians on East Pole Station who are refugees from the Space Fountain. There are six explorer ships, four cargo snips, and eleven scout ships out in deep space on exploration missions. Our total inventory is 287 personnel, three space stations, six explorer ships, six cargo ships, twelve scout ships, four jumpcraft with no jump loops to jump to, two catapult-lifts with no catapult to drop to, and three shuttlecraft with no Space Fountain to shuttle to.&quot;</p>
+<p>&quot;Don't forget the humans,&quot; said Cliff-Web. &quot;They are only a quarter-orbit away.&quot;</p>
+<p>&quot;The Slow Ones will certainly be of no help in our present crisis,&quot; warned Admiral Hohmann-Transfer.</p>
+<p>&quot;They were once,&quot; Cliff-Web said. &quot;And they may be again. For instance. Do our technical libraries on the space stations contain the construction plans for a gravity catapult?&quot;</p>
+<p>A young ensign high in the rear spoke shrilly into his vibration pickup. &quot;I doubt it, sir. That technology has been obsolete for dozens of generations.&quot;</p>
+<p>'The humans have that information, and other 'obsolete' information stored away in their memory crystals. I would count them as part of the 'inventory' if I were you, even if they are slow.&quot;</p>
+<p>&quot;Then it is 287 people and six humans,&quot; Fixed-Star said, in obvious annoyance.</p>
+<p>&quot;That is 293 'people' worried about what has happened on Egg,&quot; Cliff-Web insisted. &quot;I'm worried too. What <em>has</em> happened on Egg?&quot;</p>
+<p>&quot;Our next report is from Lieutenant Staring-Sensor, Egg Resources Monitor,&quot; said Admiral Hohmann-Transfer.</p>
+<p>&quot;According to Doctor of Crustallogy Shear-Wave, our expert on crustquakes, what happened on Egg was <em>not</em> a crustquake, but a much more severely damaging phenomenon called a 'starquake' by the humans. Such a thing occurs only rarely-even at human timescales—so we never expected it to happen to Egg. During a starquake, if the ground movement doesn't kill you, the electromagnetic heating will, and for those still left alive, the gamma-ray radiation levels are lethal.&quot;</p>
+<p>Staring-Sensor moved his tread, and a map appeared on everyone's screen.</p>
+<p>&quot;We have carried out a preliminary survey of the surface of Egg. All major structures are down, including all jump loops, gravity catapults, and the Space Fountain.&quot;</p>
+<p>&quot;It will take a half-dozen greats to get a jump loop or space fountain built,&quot; said Cliff-Web. &quot;When do the authorities think they'll be able to get the gravity catapults back in operation?&quot;</p>
+<p>&quot;We are trying to contact the pilot of the flyer,&quot; said Lieutenant Shannon-Capacity. &quot;Other than the flyer, we have detected no signs of life on Egg.&quot;</p>
+<p>Qui-Qui had brought her flyer down to a soft landing outside West Pole Mountain Resort. When she had first come to</p>
+<p>the resort, she had made arrangements to berth the flyer at a local repair garage for the resort's robotic glide-cars. The mechanic was not there to attach the tie-bolts that kept the flyer from sliding around during crustquakes, so she had to do that chore herself. She found the mechanic inside his machine shop, impaled on a sharp piece of heavy equipment. She moved away in horror and went to the video link to call the butchers. The link was dead.</p>
+<p>The glide-cars at the garage were piled into a heap in one corner of the compound, so she had to make the trip by her own tread. The streets were deserted and the crust was silent except for the low rumbles coming up from deep in Egg. She passed by compounds with cracked walls. Through the cracks she saw nothing but death. Flattened cheela bodies that had flowed through partially opened doorways, many with eyes cooked and hide blistered. Pet Slinks imitated their masters in death, their hairs singed off.</p>
+<p>Any plant of any size had either toppled or been sheared off at the root, while the smaller plants and ground cover looked limp and lifeless. It took her a while to find the compound for the peace officers, for there was little need for them in this exclusive resort area. The peace officers were dead too, and none of the equipment in the office seemed to work. She finally left and returned to her flyer. When she turned on her communications set, a voice blared through the deck.</p>
+<p>&quot;... anyone on Egg. Please reply on Channels 1, 12, 36, or 144. West Pole Space Station on an all-band call to anyone on Egg. Please reply on channels…&quot; The voice sounded squeaky and hurried since time moved faster on the orbital space stations than it did on the surface of Egg.</p>
+<p>She switched her set to channel 36 in the flyer band. &quot;This is Qui-Qui in Flyer 7. I have landed at West Pole Mountain Resort near the West Pole Rejuvenation Center. Everyone in West Pole Mountain Resort seems to be dead. All the video links are gone, too. I'd appreciate it if you would call Bright's Heaven and have them send a mechanic to service my flyer. I've got to get back by next turn to start rehearsals for my show.&quot;</p>
+<p>She then waited for the long two-grethturn interval while the signal traveled the 400 kilometers or so up to the West Pole Station and back.</p>
+<p>&quot;Flyer 7,&quot; came a voice. &quot;This is Lieutenant Shannon-Capacity. You are coming in weakly. Did you say your name was Qui-Qui? <em>The</em> Qui-Qui? I'm sorry, but I can't call anyone for you. As far as we know, you are the only one on Egg with a working free-space transmitter.&quot;</p>
+<p>Qui-Qui became concerned. &quot;Do you see any signs of life anywhere? If it isn't too far, I could fly there and find them.&quot; She had two grethturns to worry as she waited for a reply.</p>
+<p>&quot;Wait. I'll check with the Space Operations Commander,&quot; he said. A few sethturns later a harsh harassed voice rasped through the deck.</p>
+<p>&quot;You there! This is Admiral Hohmann-Transfer, Commander of Space Operations. We have an extreme emergency. As of now, I am commandeering your private flyer in the name of the government of the Combined Clans. We will need it to restore contact with the remaining authorities on Egg and start the recovery process. Let me speak to your pilot.&quot;</p>
+<p>&quot;<em>I</em> am the pilot,&quot; she said and waited for the reply.</p>
+<p>&quot;Bright has cursed us all!&quot; Hohmann-Transfer shouted. &quot;Here we are in the middle of the biggest catastrophe to hit Egg, and I get stuck with a stupid, big-lidded <em>entertainer&quot;</em> Suddenly the admiral's voice shifted to panic.</p>
+<p>&quot;We've <em>got</em> to find somebody else on Egg,&quot; she said. &quot;If we can't find somebody to rebuild a jump loop or a gravity catapult, we'll be stuck here in space until we die! We've got to find somebody else. We've <em>got</em> to find somebody else.&quot;</p>
+<p>Qui-Qui turned off the communication set. &quot;Well, Quick-Quieter,&quot; she said out loud to herself. &quot;It looks like you're through with acting for a while. This is the <em>real</em> thing. As the admiral said, 'We've got to find somebody else.' &quot;</p>
+<p>She thought about using the flyer, but decided against it. Until she found a way to recharge the accumulators, she would save the energy for the communications set. There were a number of towns nearby that she could check out on tread, including the home town of her clan. She hoped she would find someone alive there. Subconsciously twitching the clan totem in her heritage pouch, the thought of all her close friends in the clan—the elders, the hatchlings, the <em>eggs!</em> The thought of her clan's eggs and hatchlings lying unattended moved her to instant action.</p>
+<p>Within sethturns she had the flyer skimming along the surface to White Rock City, the home of the White Rock Clan. She knew exactly where the clan hatchery was, since she had left an egg there only two greats of turns ago.</p>
+<p>The sight at the clan hatchery wrung her brain-knot into knots. In the hatchling pen were the tiny bodies of innocent, defenseless hatchlings that had been thrown against the wall to burst and fall to the crust like overripe singleberries. Those bodies that had been cushioned by the dying Old Ones were covered with fatal blisters, while the juice in the blisters was cooked until it was nearly solid. Hoping against hope, she went to the egg-pen and laboriously rolled the dead Old One off the eggs he had been tending. It was only two turns since the starquake, so the eggs should have survived without being tended. She looked the eggs over carefully, then, awkwardly forming a hatchling mantle, she tucked them under her. There was no damage and no blisters, but no life. She twitched the clan totem in her heritage pouch and went out to search the rest of White Rock City.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="quake2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="marooned.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="quake2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="marooned.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

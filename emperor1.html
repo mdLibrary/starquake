@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>21:02:58 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html" class="active">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="210258-gmt-tuesday-21-june-2050"><a class="header" href="#210258-gmt-tuesday-21-june-2050">21:02:58 GMT TUESDAY 21 JUNE 2050</a></h1>
+<p>The long procession from the distant clan compound started to arrive well before the end of the turn. Every clan member except those in charge of the herd came. Dented-Shield, the leader of the clan, led the procession, carrying her battered shield high in front of her. Right behind her came her warriors carrying a freshly killed food Slink. It was pink with glowing white spots. Next were younglings with pouches full of nuts and berries. Then came the Old Ones. From their pouches peered the eyes of tiny hatchlings. Bringing up the rear were the herders who were not out taking care of the herd.</p>
+<p>&quot;Where did they get the pink and white food Slink?&quot; Crust-Crawler whispered as the procession approached.</p>
+<p>&quot;There is a clan farther east that is charged with growing that flavor of food Slink,&quot; Otis-Elevator replied. &quot;I notice that most of the glow-jewels that I have given them are missing. They probably traded the jewels to the other clan for one of the food Slinks the Emperor allows them to keep.&quot;</p>
+<p>&quot;Welcome, friends of the Dusty Crust Clan,&quot; said Captain Otis-Elevator. &quot;Your gifts of food for our meager turnfeast are most welcome. While we wait for the turnfeast to start, perhaps you would like to taste these preturn samples we have set out on the food mats.&quot;</p>
+<p>&quot;Let us give thanks to Bright for our new friends and their marvelous food machines,&quot; said Dented-Shield. &quot;May we all never be hungry again.&quot;</p>
+<p>The warriors and the younglings dropped their loads of food, which were picked up eagerly by Chef Pouch-Pleaser's crew. The members of the clan, having just finished a long trek, were hungry and wandered about between the foodmats, sampling the large variety of foods that the food machines could produce.</p>
+<p>&quot;Aren't you spacers going to eat any of the food?&quot; Letter-Ready asked Otis-Elevator, who picked up a dark red ball of chewy meal-mush and put it into an eating pouch to reassure Letter-Reader.</p>
+<p>&quot;We would rather wait to taste the food that you brought,&quot; said Otis-Elevator.</p>
+<p>&quot;The food Slink isn't bad,&quot; said Letter-Reader, putting a couple of golden yellow crystals into a food pouch. &quot;But I don't understand why you would want to eat groundnuts and singleberries instead of these tasty chunks.&quot;</p>
+<p>&quot;You will see after a few greats of eating nothing but meal-mush from the machine we will give you,&quot; Otis-Elevator told him.</p>
+<p>&quot;I'll never get tired,&quot; said Letter-Reader, sucking on the end of a yellow and silver stick. &quot;I'm going to try everything on the instruction scroll.&quot;</p>
+<p>&quot;Are you going to be operating the machine?&quot; asked Otis-Elevator.</p>
+<p>&quot;Yes. I'm the only one in the clan who can read, so they put me in charge of running it.&quot;</p>
+<p>&quot;The turnfeast is ready,&quot; <em>'trummed</em> Chef Pouch-Pleaser loudly into the crust. They all went into the compound to the eating area where the pink and white food Slink, perched on a dressing of chopped groundnuts and fresh singleberries, was waiting for them. It was soon surrounded by spacers, while the members of the Dusty Crust Clan gathered around their new food machine. Letter-Reader almost forgot to eat as he operated the machine, producing piles of golden yellow crystals, dark red balls, blue-white eggs, and yellow and silver cylinders, each one tasting better than the next.</p>
+<p>&quot;It is truly a miraculous machine,&quot; Dented-Shield told Crust-Crawler as they shared squirts from a bag of singleberry juice. &quot;It causes me to worry, though. My workers will become restless if they do not have to hunt for food.&quot;</p>
+<p>&quot;They could come here and we could teach them other things. We will teach them to read letters, work with numbers, and how to operate machines. We will even teach them how to make machines of their own.&quot;</p>
+<p>&quot;An excellent idea!&quot; said Dented-Shield. &quot;I will leave some of them here when we depart. Perhaps while you are teaching them, they may be of service to you in building your giant machine that will pull down the starships from the skies.&quot;</p>
+<p>Suddenly, three herders came into the eating area, moving as fast as their treads could take them. One of them had dropped his herder pike in his panic.</p>
+<p>&quot;The Taker has come!&quot; the first shouted.</p>
+<p>&quot;She counted the herd and was very angry,&quot; said the second, coming up to Dented-Shield. &quot;She said for us to take her to you, and we came as fast as we could.&quot;</p>
+<p>An alarm rang through the crust. &quot;Five Swifts approaching from the east,&quot; said a computer voice. &quot;Magnetic barriers are activated.&quot;</p>
+<p>&quot;Swifts?&quot; said Crust-Crawler.</p>
+<p>&quot;The Emperor's warriors do not crawl on the crust,&quot; said Dented-Shield. &quot;They ride on the backs of trained Swifts.&quot; Dented-Shield rose from the resting pad next to the eating mat she had been sharing with Crust-Crawler and started to leave. Crust-Crawler joined her.</p>
+<p>&quot;This is no concern of yours,&quot; said Dented-Shield. &quot;I shall go out to meet them myself. They are angry with me, not you.&quot;</p>
+<p>&quot;I want to meet them and explain that the loss of the food Slinks was an accident,&quot; Crust-Crawler said.</p>
+<p>&quot;The Emperor does not accept excuses,&quot; said Dented-Shield.</p>
+<p>&quot;Perhaps he will accept payment. Or perhaps the Taker will accept a bribe. Besides, I think I should turn off the magnetic barrier before one of the Emperor's tame Swifts burns a tread.&quot;</p>
+<p>&quot;That would be wise,&quot; said Dented-Shield.</p>
+<p>Crust-Crawler turned off the magnetic barrier and stood beside Dented-Shield as they waited for the Taker and her party to approach. The five Swifts each carried a heavily speckled cheela. The random dark red and yellow-white speckled pattern even extended to their eyeballs. Behind the five Swifts plodded a line of porters, their pouches overloaded with cargo. Some were speckled, but nowhere near as much as the five warriors. The warriors kept their eyes looking in all directions, since they were in strange territory, but they seemed unimpressed with the huge gravity catapult off in the distance and the shiny machines scattered about the base.</p>
+<p>&quot;I don't see how they can see out of those pink eyeballs,&quot; Engineer Thermal-Conductor whispered. &quot;That would put them at a great disadvantage in a battle.&quot;</p>
+<p>&quot;They can't see well,&quot; Dented-Shield explained. &quot;But the speckled ones make up for it by their control over animals. It is rumored that the Emperor can talk to animals.&quot;</p>
+<p>&quot;I can see how riding on a Swift would be a significant advantage in a battle,&quot; said Otis-Elevator. &quot;One warrior on a Swift would be much more than a match for a dozen warriors on the ground.&quot;</p>
+<p>&quot;Two dozen,&quot; said Dented-Shield quietly. &quot;I know.&quot; Her eight eyes looked down at the deep dents in her shield. She dropped the shield on the ground and moved forward to meet the Taker, unarmed.</p>
+<p>&quot;Greetings, Taker of the Emperor,&quot; she said. &quot;I am Dented-Shield, Leader of the Dusty Crust Clan.&quot;</p>
+<p>&quot;You failed,&quot; said the Taker. Her harsh voice was slightly muffled by the body of her Swift.</p>
+<p>&quot;We have come to take the 132 Zebu Slinks that belong to the Emperor. You are four short. You know the penalty.&quot;</p>
+<p>&quot;Yes, Taker.&quot; Dented-Shield moved closer.</p>
+<p>&quot;What is the penalty?&quot; Crust-Crawler whispered to Letter-Reader, who was standing next to him.</p>
+<p>&quot;An eye,&quot; said Letter-Reader. &quot;One eye for each Slink.&quot;</p>
+<p>&quot;But she only has eight eyes now!&quot;</p>
+<p>&quot;I will move forward with you, Dented-Shield,&quot; said one of the elders of the clan.</p>
+<p>&quot;I will too,&quot; said another.</p>
+<p>&quot;Wait!&quot; said Crust-Crawler. &quot;We are visitors from the stars in the sky. When our great ship came down from the stars we accidentally killed some of the Zebu Slinks that the clan was guarding. We would be more than willing to pay the Emperor for his loss.&quot;</p>
+<p>&quot;It is good for you that you admit your crime, slave,&quot; said the Taker. &quot;You are indeed a stranger. Otherwise you would know that the Emperor has no need of money. Money is for trade between slaves. What the Emperor wants, he takes.&quot;</p>
+<p>&quot;We can give him a machine that makes food,&quot; said Crust-Crawler. &quot;It will make more food than a great of food Slinks.&quot;</p>
+<p>The Taker paused, her eye-stub waves switching from one pattern to another as she considered. Crust-Crawler took advantage of the hesitation.</p>
+<p>&quot;I have some samples right here,&quot; he said, moving over to the food mats. He picked up a half-dozen each of the red balls and the golden cubes and brought them back. Forming a strong manipulator he reached up over the back of the Swift and handed them to the Taker. The Taker took one each and looked them over carefully. Then she glared down at Crust-Crawler.</p>
+<p>&quot;Eat them!&quot; she commanded. &quot;Now!&quot; She watched carefully as he took them back from her and put them in a feeding pouch. After a few sethturns he opened his pouch to show her that they were gone. He then raised the rest up for her to choose another. She sucked carefully at the golden crystal, then dropped it in her eating pouch.</p>
+<p>&quot;The Emperor will take the food machine,&quot; she said.</p>
+<p>&quot;I will place it on another machine that will carry it for you,&quot; said Crust-Crawler.</p>
+<p>&quot;I had better give them a cargo-glider,&quot; said Power-Pack. &quot;It has a large accumulator. We don't want the Emperor to run out of food.&quot;</p>
+<p>Within a few methturns a cargo-glider was loaded with a second food machine and brought before the Taker.</p>
+<p>&quot;This is the box that controls the glider,&quot; said Crust-Crawler. &quot;I have set it for automatic. Wherever the box goes, the glider will follow.&quot;</p>
+<p>The Taker took the box, then called over the leader of the porters.</p>
+<p>&quot;Here, slave,&quot; she said. &quot;You carry the box. Be careful you do not damage the Emperor's food machine. The penalty will be severe.&quot;</p>
+<p>&quot;Yes, Taker,&quot; said the porter. Crust-Crawler noticed that he only had nine eyes.</p>
+<p>Crust-Crawler then handed up a scroll. 'This scroll contains the instructions for the operation of the food machine. In there the Emperor can read how to produce over a dozen greats of different kinds of food with the machine.&quot;</p>
+<p>The Taker took the scroll and placed it in a pouch without deigning to look at it. &quot;The Emperor has more important things to do than read,&quot; she said. &quot;I do his reading for him.&quot;</p>
+<p>&quot;There is plenty of room left on the cargo-glider,&quot; said Crust-Crawler. &quot;Your porters could unload their cargo and let the glider carry it for them.&quot;</p>
+<p>&quot;Ah! Yes. The cargo,&quot; said the Taker. &quot;Unload the eggs!&quot;</p>
+<p>Each porter emptied three or four pouches, and soon there was a pile of black and white striped Slink eggs on the crust. The porters were still fairly bulky, however. They were probably still carrying the food supplies for the party and the Swifts, as well.</p>
+<p>The Taker looked down at Dented-Shield. &quot;Here are 144 Slink eggs. They belong to the Emperor. In 72 turns I will return. If you have taken proper care of the Emperor's 144 Zebu Slinks he will magnanimously give you twelve of them to feed the clan. If you fail, you know the penalty.&quot;</p>
+<p>&quot;Yes, Taker,&quot; said Dented-Shield.</p>
+<p>&quot;Speaking of penalties,&quot; said the Taker. &quot;You have not yet paid your penalty for the last failure.&quot;</p>
+<p>&quot;But we gave you the food machine!&quot; Crust-Crawler objected loudly.</p>
+<p>&quot;Silence, slave!&quot; the Taker roared. &quot;You do not <em>give</em> the Emperor anything. The Emperor <em>takes.&quot;</em></p>
+<p>The Taker brought her eyes to focus on Dented-Shield. &quot;The Emperor also does not accept excuses,&quot; she said, pulling a long whiplike sword from its scabbard along the flank of her Swift.</p>
+<p>&quot;I understand, Taker.&quot; Dented-Shield raised four eyes up on elongated stubs.</p>
+<p>&quot;I will stand beside you,&quot; said an elder.</p>
+<p>&quot;I will too,&quot; said another, moving forward with an eye-stub erect.</p>
+<p>&quot;I, too,&quot; said Captain Otis-Elevator. He moved bravely forward to stand next to Dented-Shield. He held up an eye-stub, the eye glaring at the Taker.</p>
+<p>&quot;This affair is no concern of yours!&quot; whispered Dented-Shield so loudly the electronic wave tingled Otis-Elevator's hide.</p>
+<p>&quot;I was pilot when my ship caused your clan damage,&quot; said Otis-Elevator. &quot;I will cleanse my clan's honor by sharing in your punishment.&quot;</p>
+<p>&quot;I care not where the four eyes come from,&quot; said the Taker, cutting off the conversation with an expert whirl of her whip-sword. Four eyes fell to the crust and burst open from the fall. The Taker then stowed her whip-sword and urged her Swift up onto the cargo glider. Her four silent bodyguards did the same.</p>
+<p>&quot;Our Swifts are tired from much travel,&quot; the Taker said to the lead porter. 'Take the box and lead this floating machine back to Bright Center.&quot; She left without looking back.</p>
+<p>Dented-Shield waited until the Taker was far in the distance. She then turned her attention to Otis-Elevator beside her. His remaining eleven eye-stubs were rigid with fury, the eye-balls riveted on the distant speck on the horizon.</p>
+<p>&quot;It is useless to fight the warriors of the Emperor,&quot; said Dented-Shield. &quot;Fortunately, they do not come often.&quot; Instead of reaching over to touch his hide with a tendril, she reached over with one of her good eye-stubs and rubbed the rigid base of one of his stubs. The subtle sexual overtones of the touch helped him come to his senses.</p>
+<p>&quot;Your clan and my clan have participated in a feast of friendship. I know I speak for the rest of the Spacer Clan,&quot; said Otis-Elevator, &quot;when I say that we wish to be more than a friend of the Dusty Crust Clan. Although we are not bound to out-clan relations by exchange of partners and eggs, we can be bound to out-clan relations by mingling of body juices in combat.&quot;</p>
+<p>He raised a stump of an eye-stub, body juices still dripping from the end. She brought her fresh stump forward and touched his, their juices blending. There was a hesitation, then the two elders of the clan that had shared in the sacrifice moved toward them and added their two stubs. Crust-Crawler took a sharp object from one of his pouches, deliberately slashed the side of one of his eye-stubs and pushed forward to join the group.</p>
+<p>&quot;You were very brave to come forward as you did,&quot; said Dented-Shield as the group broke apart. &quot;I would be honored to share an egg with you, for I am sure the hatchling would bring honor to our clan. Would your clan become our out-clan by exchange of partners as well as mingling of combat juices? That is, if you are willing to mate with a female that only has seven eyes.&quot;</p>
+<p>&quot;None of us is perfect.&quot; Otis-Elevator waved his stump.</p>
+<p>&quot;Then if your clan leader will permit, you will come with us as we return to our clan compound,&quot; said Dented-Shield. &quot;I am sure we have a lot to learn about each other.&quot;</p>
+<p>&quot;I have no objection,&quot; said Crust-Crawler. &quot;Do you, Captain Otis-Elevator?&quot;</p>
+<p>&quot;None,&quot; he replied. &quot;But I think this is time for a name change. From now on, call me Captain Otis-Elevator no longer. Instead, call me Avenging-Eye!&quot;</p>
+<p>Dented-Shield gathered her clan, the clan's clutch of Slink eggs, and headed east toward the clan compound. Letter-Reader operated the glider carrying the food machine while Avenging-Eye moved alongside, giving instructions through a rapidly rippling tread. Not all the clan left, though. A number of the younger members stayed with the &quot;Spacer Clan&quot; to become apprentices to the engineers and learn the secrets of reading and computing.</p>
+<p>The word of the strangers from the stars and their marvelous food machines spread across the crust. The leaders of other clans came to visit and were greeted warmly by Crust-Crawler and fed the delicious &quot;starfood&quot; from the machines. The members of the clans were eager to learn more about the miraculous machines of the spacers. The memories of a life of ease and plenty in the ancient days before the starquake had been passed down verbally from the tales of Old Ones in their hatchling pens, so they were not afraid of the technology, but embraced it.</p>
+<p>It wasn't long before the clans abandoned their homesites and resettled around the spacer's base. They were careful to bring along the Emperor's herds of food Slinks; but instead of being allowed to wander, the herds were kept in pens made of magnetic barriers and fed from food machines that had been adapted to manufacture a feed for the food Slinks that produced optimum growth in the animals. But they weren't eaten, for Chef Pouch-Pleaser and Engineer Metal-Bender had worked together to make food machines that could produce chunks of food Slink meat that were indistinguishable from the real thing.</p>
+<p>&quot;It seems like my crew is spending half its time building food machines,&quot; Metal-Bender said one turn at the meeting of the senior staff.</p>
+<p>&quot;One-dozeth is more like it,&quot; said Crust-Crawler. &quot;Besides, with all the clan apprentices, your machine construction team is twice as large as it was.&quot;</p>
+<p>&quot;My crust engineering team is five times as large as it was,&quot; Engineer Crust-Cracker told the group. &quot;We already have the support foundations under the gravity catapult and have excavated and lined the crust under the central hole. We are now moving into road building. We will have all the roads in the base camp plus clan compounds paved in the next four turns and the road out to the power plant site will be widened to Flow Slow size in a dozen turns.&quot;</p>
+<p>&quot;With the extra crew and the road, the construction of the main power plants is way ahead of schedule,&quot; said Power-Pack. &quot;The first plant will be sipping magma in six turns.&quot;</p>
+<p>&quot;Good,&quot; said Push-Pull. &quot;My crew has finished reconnecting the tubing on the gravity catapult to turn it from a flying machine into a standard catapult. One power plant should allow us to test it at one-quarter power.&quot;</p>
+<p>&quot;When you think you are ready, I'll send a message up to</p>
+<p>East Pole Orbital Station to send down a lightly loaded scout ship,&quot; said Crust-Crawler. &quot;I want to bring down a rejuvenation machine. Some of these clan leaders are getting old and nearly eyeless from their encounters with Taker. Their experience is too valuable to lose at this stage.&quot;</p>
+<p>&quot;We can make our own rejuvenation machines,&quot; said Delta-Mass. &quot;If the precision shops on the interstellar arks can fabricate the delicate inner machinery, Metal-Bender's crew can do the rest of it.&quot;</p>
+<p>&quot;We still have the problem of getting the rare catalyst to promote the formation of the rejuvenation enzyme,&quot; Crust-Crawler reminded his colleague.</p>
+<p>&quot;That's no problem,&quot; said Delta-Mass. &quot;We have been shoving so much crust through the mass separator machines to make metal stock that as a byproduct we have collected enough of the catalyst to activate four dozen rejuvenation machines.&quot;</p>
+<p>&quot;How are our relations with the clans, Avenging-Eye?&quot; asked Crust-Crawler.</p>
+<p>&quot;Excellent,&quot; said Avenging-Eye. &quot;The members of the Dusty Crust Clan now almost consider themselves spacers. They mix willingly with the other clans and have even taken over all of the beginner reading and computation classes. There seems to be a tenseness in the actions of the elders, though. I think it is time for the Taker to come again.&quot;</p>
+<p>&quot;The thought makes <em>me</em> tense,&quot; said Crust-Crawler. &quot;Are we ready for her?&quot;</p>
+<p>&quot;I hope so,&quot; said Avenging-Eye.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="emperor.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="emperor2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="emperor.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="emperor2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Prelude - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html" class="active">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="prelude"><a class="header" href="#prelude">Prelude</a></h1>
+<p>Burrowing through the dark void between the Sun and its stellar neighbors, a tiny visitor came to the Solar System—a rapidly spinning, white-hot, ultra-dense neutron star. A super-strong magnetic field impaled the star from east to west. Reaching out from the rotating star, the two whirling arms of magnetic force whipped at the random atoms floating in space until they were moving at nearly the speed of light. The shocked atoms gave off a pulsating beam of powerful radio waves. Thus, even though the tiny neutron star was too small to be seen in the sky by the naked eye, it had been detected by radio telescopes on Earth long before it arrived at the Solar System.</p>
+<p>The neutron star was given the name &quot;Dragon's Egg.&quot; When it was first detected, its position in the sky was at the end of the constellation Draco, as if the dragon had left an egg behind in its nest.</p>
+<p>The discovery of magnetic monopoles had revolutionized fusion-rocket technology, so it wasn't long before the first &quot;interstellar&quot; expedition reached the star, only some 2120 AU from Earth. Riding in the interstellar spacecraft St. George, the exploration crew approached the visitor carefully, for a neutron star can be dangerous if approached too closely without taking proper precautions.</p>
+<p>Although Dragon's Egg was only 20 kilometers in diameter, the surface gravity was 67 billion times Earth gravity, the 8200 K temperature was hotter than the Sun, and the trillion-gauss magnetic field threading through the star at the &quot;East&quot; and &quot;West&quot; magnetic &quot;Poles&quot; was so strong it could elongate a normally round atomic nucleus into a cigar shape. Since Dragon's Egg was spinning at slightly more than five revolutions per second, the rapidly moving magnetic fields emanating from the East and West Poles would cook any humans who approached the star too closely without protection.</p>
+<p>To counteract the gravity and the rotating magnetic fields, the scientists on St. George placed Dragon Slayer, their small science capsule, in a 406 kilometer synchronous orbit about the star, where the extreme gravity was canceled by the centrifugal force. Here also, Dragon Slayer would be moving along with the magnetic field and at 406 kilometers distance the magnetic field was no longer dangerous, just a nuisance.</p>
+<p>Although the orbital motion of Dragon Slayer canceled the gravity at the center of the spacecraft, the match was not perfect everywhere. The residual gravity tides of 200 gravities per meter were still dangerous, but the exploration scientists devised a solution for that problem. They looped a superconducting cable a million kilometers long around the neutron star. The cable was used to extract electrical energy from the star's rotating magnetic field. The electrical currents in the cable powered a robotic factory that produced magnetic monopoles. The monopoles were injected into eight of the many asteroids that had been collected by the neutron star during its journey through space. There were two large asteroids and six small ones.</p>
+<p>The monopoles from the factory condensed the asteroids until they were almost the density of the neutron star itself. Using the gravity interactions between the two larger asteroids, Otis and Oscar, the humans and their computers played a game of celestial billiards that placed the six smaller asteroids in a circular formation in synchronous orbit over the East Pole of the star. Then, using Otis as a gravitational elevator, Dragon Slayer and its crew was hauled down to join them.</p>
+<p>Once in orbit, the crew began to map Dragon's Egg. They expected to learn many interesting scientific facts about this dense visitor to their Solar System, but they also found something they had never expected.</p>
+<p>Life!</p>
+<p>Life on the surface of a neutron star!</p>
+<p>The alien creatures, the &quot;cheela,&quot; were dense—as dense as the crust that covered the white-hot star. The tiny bodies of the cheela, a little larger than sesame seeds, weighed as much as</p>
+<p>a human, since they were made of degenerate nucleonic material. The life processes of the cheela used interactions between the nuclear particles in the bare nuclei that make up the cheela, while life on Earth uses electronic interactions between the electron clouds of the atoms that make up humans. Because nuclear reactions take place a million times faster than electronic reactions, the cheela thought, talked, lived, and died a million times faster than the humans in orbit above them.</p>
+<p>When Dragon Slayer first took up its position over the East Pole, the cheela were little more than savages and were awed by the laser mapping beams sent down from the middle of the strange star formation floating motionless in their sky. They raised a huge mound temple to worship the new Gods. The humans saw the temple and started sending simple picture messages, one pulse per second. Within less than a day the cheela had developed their technology to the point that they were able to send their first crude, handmade signals to the Gods above them, at 250,000 pulses per second. The humans, finally realizing the immense time difference, worked as rapidly as they could, but nearly a generation went by on the surface of the neutron star before the human laser pulses answered the crude flare signals sent by the cheela below. The human crew used the slower science instruments such as the laser radar mapper for human-to-cheela communication, while the computer dumped the contents of the ship's library directly from the Holographic Memory storage cubes through a high-speed laser communicator to the surface below.</p>
+<p>Chief Scientist Pierre Carnot Niven watched as Chief Engineer Amalita Shakhashiri Drake inserted the first of the 25 library HoloMem cubes, <em>A to AME</em>, into the communications console.</p>
+<p>&quot;A complete education, from Astronomy to Zoology,&quot; Pierre mused. &quot;Alphabetical order may not be the best way to teach someone, but in this case it's the fastest.&quot;</p>
+<p>For half a day the humans were the teachers for the cheela. In that 12 hours, 60 cheela generations passed. These were prosperous generations for the cheela, with the manna of knowledge pouring from the heavens keeping the previously warring clans on the star busy and at peace. After the first half day, the cheela had surpassed the human race in technological development and it was now time for the humans to become the students. Despite their tired bodies and their bewilderment over the rapidity of events in the past day, the humans continued to work diligently at their various science instruments and consoles, while one after another, the HoloMem crystals in their ship's library were rewritten with new knowledge from the cheela.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="dedication.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="danger.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="dedication.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="danger.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

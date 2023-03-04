@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>06:58:07 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html" class="active">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="065807-gmt-tuesday-21-june-2050"><a class="header" href="#065807-gmt-tuesday-21-june-2050">06:58:07 GMT TUESDAY 21 JUNE 2050</a></h1>
+<p>Deep within the root of the East Pole mountains, a thick block of crust groaned audibly under the great stress of the billions of tons of matter piled up for centimeters overhead. The stress peaked to the ultimate limit, then with a loud crack, a block of crust broke and a long rip propagated through the striated undercrust. The mountain peaks, now unsupported, dropped a full twenty millimeters in the intense gravity field of Egg. The shock wave from the fall of the mountain range spread out from the East Pole at nearly the speed of light, striking first at the town of Swift's Climb.</p>
+<p>Walls cracked and communications were cut off as the crust lifted and fell. Neutron-Drip felt her eye-stubs flutter as the crust rolled beneath her. She kept watching the overloaded instruments and willing them to get back on scale so they would record the remainder of what had to be the largest crustquake in cheela history.</p>
+<p>A little while later the surface wave passed through the Inner Eye Institute in Bright's Heaven. Time-Circle's already panicked brain-knot screamed mentally as the crust raised up underneath his tread. He slowed to a self-conscious deliberate slide as the wave passed under him and the crust dropped again, having done little to him or the well-constructed compounds of the Inner Eye Institute.</p>
+<p>The magnetic fields of the star, frozen into the moving crust, waved back and forth a little causing electrical currents to flow in Time-Circle's body and exciting the electrons and random nuclei in the tenuous atmosphere until they were moving fast enough to generate electron-positron pairs. The counter-flow heat exchangers in the base of his eye-stubs increased their cooling capacity to extract the heat that had been generated in his eye-balls by the flowing electric currents. As his eyes cooled to their normal dark red, he could see the decaying X-ray fluorescence as the remainder of the positrons generated by the atmospheric currents found an electron to annihilate with.</p>
+<p>More slowly now, Time-Circle continued on to the Time-Comm compound to check his machine. Although the crustquake was a large one, he was sure that Cliff-Webb had designed the machine itself to survive the shock. But perhaps the quake had disturbed the control console, and that was what was causing the strange noise signals.</p>
+<p>The lift carrying Heavy-Egg and seven of his crew was passing level 50 when a flare of light from the atmosphere below signaled the start of a crustquake. A couple of methturns later the hum of the up-deflectors changed pitch as the accelerators on the ground compensated for the twenty-millimeter drop of the crust underneath them.</p>
+<p>&quot;That was a big one,&quot; Heavy-Egg thought, as his tread felt the change in pitch of the vibrations in the deck.</p>
+<p>There was a loud <em>clang.</em> A pushout, the first in many turns, was hanging in the catcher, the extra strain having proved too much for the ring.</p>
+<p>The shock waves from the crustquake penetrated to the center of the neutron star where they were bounced back and forth by the density differences between the various layers. A number of the bouncing shocks met each other at one of the boundary layers and concentrated their energy in a very small region. The extra pressure was just enough to initiate a phase change in the material, and it shrank in volume. Once started, the phase change spread at nearly the speed of light. An inner layer of star almost a kilometer thick changed density and shrank by two meters, leaving the outer layers of the neutron star unsupported. The outer layers fell, and the crustquake became a <em>Starquake.</em></p>
+<p>The gigantic Starquake rose to the surface and shook the crust like a Swift shredding a Flow Slow. The crust alternately buckled and spread, sending anything loose moving across the surface at high speed to smash into walls, plants, or cliffs. The magnetic fields embedded in the crust shook along with the crust and accelerated the electrons and ions in the thin, tenuous atmosphere. The atmosphere heated up until it reached a temperature of a billion degrees. Electron-positron pairs were created, only to annihilate again to produce a continuing flood of X-rays. The X-rays bounced off the high speed electrons in the super-heated atmosphere and with each bounce increased in energy until they were a deadly, penetrating glare of gamma rays.</p>
+<p>Time-Circle felt the crust drop beneath him once again. Unlike the first time, the dropping motion didn't stop. The whole world around him was dropping and dropping. The gravelectromagnetic fields in the Time-Comm machine lost control of the spinning black hole at the heart of the machine. The black hole converted back into energy, blowing up the Time-Comm compound and Time-Circle.</p>
+<p>Neutron-Drip had been expecting a second series of shocks as the crustquake circled around Egg and returned again. It returned early. She was still trying to understand why the quake seemed stronger than before, when she found herself sliding helplessly at high speed toward the array of instruments she had been tending. The sharp edges on the instruments cut her to ribbons.</p>
+<p>Zero-Gauss was in her underground laboratory. She was picking up some pellets that had missed the catcher on a fountain plant during the initial crustquake. The starquake hit and she and all the plants and animals were swept across the metal floor to one corner of the room. The support pillars buckled, and the roof fell in.</p>
+<p>A pulsating sheet of fire flickered over the surface of the neutron-star, generating a high-energy blast of radiation that spread out into space. It only took a millisecond for the high-energy ultraviolet, X-rays, and gamma rays to reach Dragon Slayer in its synchronous orbit above Bright's Heaven. The stronger of the gamma rays sheeted through the tough hull of the spacecraft, through the thin protection of Amalita's space-suit, and irradiated her body with three times the lethal dose. The ultraviolet radiation bounced off the star image telescope mirror, burned through the protective filters, and poured unimpeded down on the star image table, flooding the Science Deck and Amalita's eyes in an ultraviolet glare.</p>
+<p>Amalita's eyelids closed too late over cloudy-white corneas and started to blister under the intense radiation. Following on the heels of the electromagnetic radiation pulse came a three-pulse burst of kilohertz gravitational radiation that whipped Amalita's body back and forth, breaking three joints and snapping her spinal cord at the neck. The last memory stored in Amalita's dying brain was of the stinging pain in her eyes.</p>
+<hr />
+<p>Qui-Qui was still recuperating from her regeneration and was taking it easy at West Pole mountain resort. She was playing with her new toy, a custom built, high powered, personal flyer. There was less than a dozen on all of Egg, for they cost much more to operate than intercity glide-cars and weren't any faster. A glide-car, however, couldn't go <em>up.</em></p>
+<p>The flyer had a gravity repulsion drive for operation near the surface, an inertia drive for high altitude, and superconducting wings for gliding on the magnetic field of Egg. It was expensive, it was extravagant, but it was fun!</p>
+<p>She took off from the resort and jumped over some nearby foothills to find a small deserted valley. She took the flyer up to speed on the gravity drive and hit one-twelfth light-speed before she had to switch to inertia drive and zoom up over the mountain at the end of the valley. Turning off the repulsor drive and flipping out the wings, she put it into climb on the inertia drive and watched the energy reserves in her accumulators drop. Her manager would complain about the recharging bill, but she had plenty of stars saved, and there would be lots more now that she was young again.</p>
+<p>Qui-Qui was at 25 meters altitude when the starquake hit. Fortunately, she had been looking up at the West Pole Space Station when the atmosphere lit up. As it was, before she could pull them in under her eyeflaps, two of her eyes had spots that didn't go away for nearly a turn.</p>
+<p>She had trouble believing the altimeter when it varied from 24 to 26 meters every few methturns. All the communicator channels were silent with the exception of some lonely navigation beacon somewhere that proved that her set was working. She knew it was a crustquake because of the glow in the atmosphere, but it must have been a huge one and it was still going strong.</p>
+<p>She would be safe as long as she stayed up out of the atmosphere while the crust was moving. She set the flyer on autopilot with a minimum power trajectory. The plane slid out its superconducting wings and started gliding slowly down the magnetic field lines, extracting lift when it could from the slow variations in the fields as they followed the motion of the rolling crust below.</p>
+<hr />
+<p>The jumpcraft carrying Admiral Steel-Slicer was starting its jump to orbit when the starquake pulled the support structure out from under the Jump Loop. High-speed ribbon sliced through the outskirts of Bright's Heaven as the pilot fought the jumpcraft clear. The jumpcraft didn't have enough energy to make it into orbit and arced over into a trajectory that ended in the middle of the West Pole mountains. One by one the pilot lost the sight in eight of his twelve eyes from the X-ray glare as he tried to find the West Pole Jump Loopfor an emergency landing. It wasn't there. He snapped out his superconducting wings and, using the last of his onboard emergency propulsion reserves, managed to bounce the jumpcraft off the West Pole magnetic field into an elliptical orbit.</p>
+<p>&quot;Periapsis 5 meters and apoapsis 90 meters, Captain Light-Streak,&quot; the copilot, Slippery-Wing, reported. &quot;Coming up on periapsis now.&quot;</p>
+<p>The altimeter fluctuated wildly as the undulating crust passed by a few meters below them. Moving at orbital velocities, they shot under a slowly moving flyer high above them. The underside of the flyer glowed brightly from the glare below.</p>
+<p>&quot;I'll circularize the orbit with magnetic lift to give us a chance,&quot; Light-Streak said. &quot;But it won't be long before we run out of power and the gravity generators fail, leaving us in free fall.&quot;</p>
+<p>Slippery-Wing concentrated on her instruments and tried not to think of what it would be like to die by slow disintegration.</p>
+<hr />
+<p>Speckle-Top felt the bump of the first crustquake, then the ups-and-downs of the big crustquake that came after. The ups-and-downs went on and on. Turnfeast time came, and she was hungry. The big quake was probably keeping the clankers busy, so she started to squirm out of her hiding place. When she reached the rock covering the entrance, she put part of her tread on it and listened. The only noise was that of stones rubbing against one another as the crust moved up and down. She</p>
+<p>pushed the rock aside a little and peeked out. The glare left streaks in her vision. She pulled the rock back and retreated into the blackness, hungry and cursing.</p>
+<hr />
+<p>Heavy-Egg, his senses extra-alert because of the crustquake, tucked his body into the lift console station, formed extra manipulators to take over the controls in case any of the automatics stopped working, and continued to monitor the hum of each of the six deflectors holding up his lift platform. He slowed the speed of their drop to give the deflectors more margin.</p>
+<p>&quot;Snatch that pushout, Metal-Pusher,&quot; he said.</p>
+<p>&quot;It's still hot, Boss,&quot; Metal-Pusher complained.</p>
+<p>&quot;I said 'snatch it',&quot; said Heavy-Egg. &quot;That was a big quake, and it'll be back around soon. Quality won't like it if you bring them in a pair of bangers.&quot;</p>
+<p>There was a grunt, a curse, and a clang as the hot ring was dropped on the deck of the lift.</p>
+<p>The up-deflectors started to change pitch again.</p>
+<p>&quot;Here it comes,&quot; Heavy-Egg said, six of his eyes on the instrument panel and six eyes on the six streams of rings above them, glittering in the glow from Egg. The pitch deepened and deepened as the up-going rings came further and further apart. The deck vibrated with anxious murmurs from the crew. Heavy-Egg watched the instruments carefully. The automatics were shifting the load from the troubled up-streams to the stable down-streams. The pitch continued to deepen, then become erratic.</p>
+<p>The up-deflector indicators were fluctuating rapidly as the deflectors attempted to straighten out the ragged stream of rings. There was a clang as another pushout appeared in the catcher. Metal-Pusher was ready and tried to snatch it, but his hook was knocked from his manipulator by another ring that banged loudly into the first. Three more rings followed.</p>
+<p>&quot;We're losing it!&quot; Heavy-Egg shouted.</p>
+<p>The up-going streams slowly pulled away from the down-going streams, destroyed their deflectors, and like three ragged knives, sliced through the triangularly shaped lift. Two of the streams were soon out away from the platform, but the third was making its way right across the middle. Bodies tried to compress to make room on the crowded lift for the deadly stream. A scream of terror turned into a scream of pain as the rings tore off one side of Yellow-Rock and continued on to cut their way through the platform.</p>
+<p>Three of Heavy-Egg's eyes watched in horror as the platform was cut in two. As the last connection through the decking was severed, the voices of the five members of the crew on the other section were cut off. That section had only one deflector, and with no connection to the computer in the control console, the single deflector couldn't compensate adequately. The section tilted, then fell away to the crust below.</p>
+<p>Heavy-Egg turned his attention to his remaining section. It was the smaller of the two pieces even though it had the control console and two deflectors. Besides the console operator there was only room for two, and one of those was the dying Yellow-Rock. The down-streams now started to show some variations. The automatics reached their limits of control and the platform tilted badly as pushout after pushout banged into the catcher. Yellow-Rock screamed again as he started to slide off the slippery deck.</p>
+<p>&quot;I got you,&quot; said Hungry-Pouch. She already had a good grip on the barrier rail with a number of manipulators and now was trying to hold onto Yellow-Rock's limp body by grabbing his eye-stubs and jamming pairs of manipulators into his pouches. Their bodies slid closer to the edge, tilting the platform further.</p>
+<p>&quot;Let him go,&quot; Heavy-Egg shouted. &quot;He's good as dead anyway.&quot;</p>
+<p>&quot;He's my buddy! We hatched under the same mantle!&quot; Hungry-Pouch explained. &quot;I'm not letting go! You just get this Bright-Afflicted lift level.&quot;</p>
+<p>&quot;You can't save him!&quot; Heavy-Egg shouted again, fighting the controls. &quot;Let him go!&quot;</p>
+<p>There was a grunt, a sliding noise, and the deck came back to level. Heavy-Egg was alone on the platform.</p>
+<p>The lift was now down to where Level 30 should have been, but there was nothing there. There were no up-streams anymore, and he was riding on two of the three down-streams. The glare from the ground was becoming brighter, and he had to shield his eyes to watch the controls. He was dropping the lift as fast as he dared, but he needed to know how much down-stream he had left to work with.</p>
+<p>He stuck one eye out for a quick look upwards. In the seared after-image he saw three long streams and a lot of dots drifting off to one side. The larger dots had the hexagonal shapes of the 10 kilometer level platforms, but some were the triangular lift platforms. The tiny dots he didn't want to identify.</p>
+<p>He risked another look with a second eye to where Level 20 should have been. The X-ray glare was brighter now. As he pulled the painful eye back in under its eye-flap, he resigned himself to having the image burnt into that eye-ball permanently. The three down-streams were definitely shorter, but he should be able to make it to the surface. It was a good thing he had risked a look, for one of the two streams he was using was bent and ragged toward the top.</p>
+<p>He used both down-streams for another methturn, then just before Level 10 switched to the one good stream. Rotating the platform around the good stream so it was out of the way of the ragged tail on the second stream, he continued down to the surface. When the altitude indicator showed he had a meter to go, he slowed down. He sacrificed another eye in a look over the side to see a glaring mountain of rings piled up where Base Level had been. There wasn't much time left, so he dropped quickly down the last few centimeters, hit the pile of rings, and slid down and away from the rest of the incoming stream. The lift platform coasted to the bottom of the pile of rings and stopped.</p>
+<p>He was alive! And nothing worse than a couple of seared eyeballs. For a long time he stayed on the platform, his eyes tucked under their eye-flaps. After the crust movement had slowed down a little, he peeked out to find that the atmosphere was still flickering with X-rays, but it wasn't too bad this high up in the East Pole mountains. He made his way across the slippery rings until he had his tread once again on firm crust.</p>
+<p>He looked up and found the tiny spots that were the East Pole Space Station and the Topside Platform. Topside, having lost its support from the fountain, had drifted off into its own elliptical orbit. Heavy-Egg was wondering what was happening to the people on Topside now that they were in free fall with no black holes to provide gravity. It must be horrible to go that way. He was glad he was on Egg where he was safe.</p>
+<p>A strong aftershock rumbled up from beneath the East Pole mountains. The shock became more concentrated as it reached the peak of the mountain. Traveling with the shock was a sheet of X-ray flame. Growing brighter every meter, the flame roared up the valley and burned Heavy-Egg's eyes off.</p>
+<hr />
+<p>Both Cliff-Web and the chief engineer paused as their treads noticed the change in the everpresent hum in the deck.</p>
+<p>&quot;Crustquake,&quot; said the chief engineer. &quot;I thought I noticed an increase in the light reflected from the East Pole Space Station a little while ago.&quot;</p>
+<p>They continued their discussion while the hum slowly varied in pitch as the ring-streams compensated for the motion of the crust below. The variations had almost faded from their attention when the pitch changed again. The note dropped lower and lower and kept dropping. All their eye-stubs came to alert as they felt the platform start to drop out from under them. A staccato of muffled bangs from an overload of pushouts sent them both out the door and across the deck toward the elevator to the machine deck below. Topside Platform wobbled as it lost the upward force that had been holding it in place. The noise from below became louder. Then, through the deck in front of them shot a deadly stream of high-speed metal rings.</p>
+<p>&quot;Get everyone to the launch area and on a shuttle!&quot; Cliff-Web shouted. The chief engineer pulled out an emergency communicator from a pouch, placed it on the deck and put his tread over it. His amplified voice blasted its way throughout all three levels.</p>
+<p>&quot;Everyone to the launch area. Topside is going into free fall. Repeat. Everyone to the launch area and onto a shuttlecraft.&quot;</p>
+<p>&quot;All three up-streams are out of control.&quot; Cliff-Web looked around as his creation was sliced into pieces by the errant streams.</p>
+<p>Treads gripping the rough spots on the deck, they made their way to the launch area. The atmosphere above the deck was already full of tiny flakes of dirt that were coming apart and expanding into tenuous plasma. Three shuttlecraft waited in their launch cradles, and some of them already had a few workers on top of their curved surfaces. Cliff-Web's eye-balls were starting to itch as he moved up the slippery curved ramp to the safety of the shuttlecraft with its black hole gravity field.</p>
+<p>&quot;Shall I lift off, Boss?&quot; the shuttlecraft pilot asked. &quot;There's all kinds of junk starting to fall off Topside onto us.&quot;</p>
+<p>&quot;Not yet,&quot; said Cliff-Web. &quot;We're in no danger of falling, and it will be a long time before Topside decomposes into non-degenerate matter. Who's missing?&quot;</p>
+<p>&quot;Nearly everyone from the lower decks,&quot; the chief engineer replied. &quot;Wait, here comes the elevator!&quot;</p>
+<p>Through the deck the distant whine of motors could be</p>
+<p>heard. Way off in the distance a crowded elevator rose through the center of the platform. A cursing flood of roustabouts swarmed from the elevator toward the launch deck. Driven by the itching madness in their disintegrating hides and daring only to poke out an occasional eye from under their eye-flaps, they rushed blindly toward the launch deck.</p>
+<p>&quot;Stop! Sto ... !&quot; the first one cried as she became aware of the gaping slash that blocked their way. Her tread tried to reverse on the slippery surface of the decomposing deck, but the pressure from behind was too much. Her cry stopped abruptly as she slid into space.</p>
+<p>Instead of falling, however, she free-falled across the gap; and her voice returned, louder and cursing, as her mangled tread clung tenaciously to the jagged metal on the other side.</p>
+<p>&quot;Jump!&quot; Cliff-Web shouted to the others who were milling nervously on the other side of the chasm. &quot;You will just float over.&quot;</p>
+<p>The itching grew worse as flakes of skin billowed in a cloud around the stranded crew as they tried to overcome a lifetime of habit and deliberately throw themselves over a precipitous cliff.</p>
+<p>&quot;I'll do it if you will,&quot; Hard-Way told Shiny-Tread.</p>
+<p>&quot;Last one over eats Tiny Shell ploops.&quot; Shiny-Tread moved away from the crack, then tucked his eyes under their flaps, smoothly rippled up to speed on the increasingly slippery deck, and launched himself into orbit. Hard-Way followed right behind. She was larger and stronger than he was, and her greater strength gave her a longer leap over the void.</p>
+<p>Once he had jumped, Shiny-Tread felt an amazing sense of well-being, as if he were back in his egg. His body contracted into a ball, distorted by the muscular tread that still twitched as it tried fitfully to make contact with something solid. The itching of his hide grew more intense. He pushed out an eye-ball to look. He could see the platform floating by below him, Hard-Way balled up high above him, and the crowded shuttlecraft ahead. He would have passed over the shuttlecraft and out into space, but the gravity of the black hole in the shuttlecraft reached out and pulled him in. He landed heavily on the topside of the chief engineer.</p>
+<p>&quot;I'm sorry, Chief,&quot; Shiny-Tread mumbled as he clumsily climbed down off his boss's topside onto the curved deck. But no one paid him any attention. Even the chief engineer's eyes</p>
+<p>were turned upward as sorrowful sounds murmured through the deck. Shiny-Tread looked up.</p>
+<p>&quot;Hard-Way!&quot; Shiny-Tread shouted. &quot;Come back! COME BACK!!&quot;</p>
+<p>They watched in silence as Hard-Way sailed high over the launch area and off into the distance. They saw one of her eyes pop out for a look, then her tread start to move futilely in an attempt to return. The cloud of particles floating around Hard-Way increased and cut off their view.</p>
+<p>&quot;You will have to jump slower or go around ...&quot; Cliff-Web told the crew.</p>
+<p>&quot;We'll have no hide left if we try to go around,&quot; said Many-Rings, a new shift supervisor. &quot;We've got to cross.&quot; She formed manipulators and grabbed onto three of her crew nearby.</p>
+<p>&quot;Hold on, you lumps of flab,&quot; she said. &quot;I'm going to play jump loop.&quot; She brought out most of her eyes and, concentrating carefully, stretched her body out into a long bridge and grabbed the opposite side. She moved her rear manipulators off her crew and attached them to the edge of the deck. Then she pulled in her eyes and tried not to think of what she was doing.</p>
+<p>&quot;Get across, you Tiny-Shell-brained offspring of a Flow Slow!&quot; her trailing tread roared. The crew gingerly crossed over on the makeshift bridge, pulled their valiant supervisor over to safety and soon were all crowded in the protective gravity of the shuttlecraft. Some of the crew had lost so much hide they were starting to ooze through the muscle tissue underneath.</p>
+<p>There was a rumble from below, and the deck lurched as Topside Platform started to break up.</p>
+<p>&quot;Raise shuttle,&quot; Cliff-Web ordered. &quot;And take us up to the East Pole Space Station. We'll have to take a jumpcraft or catapult-lift down and start helping get things restored back on Egg.&quot;</p>
+<hr />
+<p>Captain Far-Ranger was discussing her warpfeast plans with the chef on East Pole Space Station when Egg flared up. When the light became too bright to look at, she knew there was trouble and headed for the Command Deck. Once there, she stayed in the background and let the station commander, Admiral Hohmann-Transfer, run things.</p>
+<p>&quot;Communications Officer, any transmissions from the surface yet?&quot; Hohmann-Transfer asked.</p>
+<p>&quot;None from the surface except a single navigation beacon,&quot; Lieutenant Giga-Byte replied. &quot;But two vehicles are sending transmissions. One is the jumpcraft in the abort orbit. The other is a personal flyer at the West Pole. The West Pole Space Station has been unable to make contact with the flyer. They don't have transmitters for the flyer band.&quot;</p>
+<p>&quot;How is the jumpcraft orbit?&quot; Hohmann-Transfer asked.</p>
+<p>&quot;The pilot was able to circularize the orbit. But they are running low on power to operate the gravity generators.&quot;</p>
+<p>&quot;How much time do they have?&quot;</p>
+<p>&quot;Less than a turn,&quot; said the Comm Officer.</p>
+<p>&quot;If only we had a vehicle that didn't depend on a ground launcher for the energy to get up and down,&quot; said the admiral.</p>
+<p>&quot;We do,&quot; Far-Ranger interrupted. &quot;My interstellar scout ship is designed to operate around neutron stars. It can't land and take off, but I should be able to drop down, match orbits with that jumpcraft, then make it back out to synchronous orbit on my drives.&quot;</p>
+<p>&quot;That will save at least three of them. Maybe more if we can crowd them in.&quot;</p>
+<p>&quot;If we empty the food lockers and cargo hold, I can probably carry a whole jumpcraft load,&quot; said Far-Ranger. &quot;I'm sure the passengers wouldn't mind a dothturn or two in the freezer.&quot;</p>
+<p>&quot;First Officer!&quot; roared Hohmann-Transfer. &quot;Get a crew and empty that scout ship! Navigator! Prepare a trajectory and dump it in the scout ship computer!&quot;</p>
+<p>&quot;I'll have plenty of time for calculating my trajectory myself while my ship is being off-loaded,&quot; Far-Ranger politely reminded her.</p>
+<p>&quot;Of course,&quot; said Admiral Hohmann-Transfer. &quot;My apologies.&quot;</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="quake.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="quake2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="quake.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="quake2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

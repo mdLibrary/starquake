@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>21:03:12 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html" class="active">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="210312-gmt-tuesday-21-june-2050"><a class="header" href="#210312-gmt-tuesday-21-june-2050">21:03:12 GMT TUESDAY 21 JUNE 2050</a></h1>
+<p>The Taker came out of the west. She and her four warrior-guards rode their Swifts down the center of the paved road while the porters plodded alongside on the crust, carrying their heavy loads of Slink eggs. Even at the great distance Crust-Crawler could see the annoyed twitch in the Taker's eye-wave pattern as she passed by the clan compounds and food Slink pens.</p>
+<p>&quot;The timing is nearly perfect,&quot; Crust-Crawler said as one eye looked up at the sky. A large object was falling out of the sky directly toward them. A low groan started in the crust, rose to a piercing shriek, then tapered off as the gravity catapult</p>
+<p>brought the spherical scout ship to an abrupt halt in midair, then lowered it gently onto the landing platform.</p>
+<p>The clan cheela and the food Slinks had seen a dozen landings already and were not disturbed. The porters accompanying the Taker, however, back-treaded and scattered, some of them pushing eggs out of their pouches as they fled. Two of the riding Swifts bolted, and it took expert handling by the warrior-guards to bring them under control, but not before one of the Swifts scooped up three of the dropped eggs.</p>
+<p>The Taker got her mount under control, glared angrily at Crust-Crawler, then with harsh commands and flickers of her whip-sword, reformed her expedition. Three eyes were left lying in the road.</p>
+<p>The Taker moved her Swift forward and pulled a scroll from her pouch.</p>
+<p>&quot;Clan Leaders! Come forward!&quot;</p>
+<p>The leaders of the eight clans that had come to live around the base gathered in a group in front of the Taker. Dented-Shield moved forward from the rest. She had no weapons, but she carried her shield by her side.</p>
+<p>&quot;Greetings, Taker of the Emperor,&quot; she said. &quot;I am Dented-Shield, Leader of the Dusty Crust Clan.&quot;</p>
+<p>&quot;I have come to take the 132 Zebu Slinks that belong to the Emperor,&quot; said the Taker. &quot;Why did you leave your assigned grazing place and bring them here without permission?&quot;</p>
+<p>&quot;The Emperor's Slinks are protected from wild Swifts here. If you count them you will find we have lost none of them. The Emperor's Slinks have better grazing here. If you look at them you will find them all in prime condition.&quot; The Taker had already counted the black and white striped Slinks in the pen when she had ridden by earlier; in fact, except for one yellow and pink Slink missing from the herd belonging to the White Cliff Clan, all were in excellent condition.</p>
+<p>&quot;I will take 132 Slinks from each herd for the Emperor,&quot; said the Taker. &quot;The Emperor magnanimously gives you the rest to feed your clan.&quot; She waved her eyes at the porters, who started to unload their cargo of Slink eggs from their pouches.</p>
+<p>&quot;Here are the eggs for your next herd. They are the Emperor's property, guard them carefully. You know the penalty.&quot;</p>
+<p>Dented-Shield's tread hesitated as she spoke, but she finally <em>'trummed</em> outthe reply.</p>
+<p>&quot;We do not wish to have the remaining food Slinks. We willingly give them to the Emperor.&quot;</p>
+<p>&quot;You do not <em>give</em> things to the Emperor, slave,&quot; said the Taker angrily. &quot;The Emperor takes! For your insolence I shall take <em>all</em> of the food Slinks, and your Clans can grub for groundnuts. Now pick up those Slink eggs and take care of them.&quot;</p>
+<p>&quot;We do not wish any more of the Emperor's Slink eggs.&quot; Dented-Shield sounded braver this time.</p>
+<p>&quot;Insolent slave!&quot; the Taker roared. 'The Emperor owns everything. Every food Slink, every groundnut, every fruit on every plant, even the meat on the wild Swifts he owns. Pick up those eggs, or I shall banish you all from the Emperor's lands and you shall starve.&quot;</p>
+<p>&quot;We give to the Emperor all that which belongs to the Emperor. We have no need of the Emperor's food. We have the food machines to feed us.&quot;</p>
+<p>&quot;I will take the food machines, slave. Everything belongs to the Emperor. Even you.&quot; Taker pulled out her whip-sword and flicked it menacingly. &quot;When I am through with you, insolent crust-slug, there will be no more talk of refusing to raise the Emperor's food Slinks.&quot;</p>
+<p>Dented-Shield raised her shield as Taker urged her riding-Swift forward. Crust-Crawler rapped a short command into the crust and a nearly invisible magnetic barrier sprang up across the road. The riding-Swift slowed and reared as its tread touched the magnetic barrier. The ultra-strong magnetic fields stretched the molecules in the tread of the Swift to the breaking point. The Swift roared and backed off, favoring the burned edge of its tread.</p>
+<p>Crust-Crawler moved forward to stand next to Dented-Shield.</p>
+<p>&quot;There is no need to raise food Slinks anymore,&quot; he said to the Taker. &quot;The food machines can now give us Slink meat as well as all the other foods it did before. Now that we have nearly finished our task here, we would like to meet your Emperor. We will give him many, many food machines, cargo-gliders, personal gliders, road pavers, and other machines, as well as the power plants to run them. All of Egg can become prosperous, and there will no longer be a need for slaves.&quot;</p>
+<p>Crust-Crawler noticed that Taker's eye-wave pattern almost stopped as she contemplated the thought of not having slaves to do her bidding.</p>
+<p>&quot;If the Emperor will guarantee me safe conduct,&quot; said Crust-Crawler, &quot;I and my machine makers will be glad to visit him in Bright Center. Otherwise, he may come here. As you notice, we have not attacked your party and have given you more than you came for. We would welcome the visit of the Emperor. If he wishes, he can ride in our starships and look down on all of his domain at one time.&quot;</p>
+<p>As if to punctuate his offer, there was a rising whine in the crust and the gravity catapult threw the scout ship back into the sky.</p>
+<p>Faced with a barrier she could not overcome, and awed by the technology around her in spite of herself, the Taker decided to retreat.</p>
+<p>&quot;I leave to report your behavior to the Emperor,&quot; she said. &quot;He will decide what you will do next.&quot;</p>
+<p>Crust-Crawler had the barrier around the herding pens lowered, and the porters, now reloaded with Slink eggs, drove the docile herds off on the long journey to Bright Center. Before the Taker left, however, she and her warriors used the treads of their riding-Swifts to push over all the low walls outlining the clan living areas and tread the meager contents into the crust.</p>
+<p>&quot;I hope the Emperor is more reasonable than the Taker,&quot; said Metal-Bender.</p>
+<p>&quot;If the Emperor is the original Attila,&quot; Crust-Crawler replied, &quot;even two dozen rejuvenations wouldn't be enough to make him reasonable. I think we had better work on our defenses.&quot;</p>
+<p>The Taker got back to Bright Center just as Attila finished his latest rejuvenation. His compact, muscular body was stronger than ever and just as speckled as before. He had a holding pouch of golden yellow crystals and was popping them one by one into an eating pouch.</p>
+<p>&quot;Good haul, Crazy-Eyes,&quot; he said, looking at the food Slinks flowing past. &quot;I want one of those striped ones.&quot;</p>
+<p>&quot;I will have the servers prepare it for turnfeast, Terrible One,&quot; said the Taker.</p>
+<p>&quot;I want it now!&quot; demanded Attila. &quot;I'm hungry.&quot; He waved at a nearby server. &quot;That stupid rejuvenation robot kept feeding me mush and telling me to eat slowly. Had to dent it with my sword before it would let me go.&quot;</p>
+<p>&quot;I had some trouble in the eastern provinces,&quot; the Taker said after a long silence.</p>
+<p>&quot;Some slaves holding out on you?&quot;</p>
+<p>&quot;No. They not only gave us back all the food Slinks they were supposed to, but they even refused to take their dozeth.&quot;</p>
+<p>&quot;I thought the herds looked bigger. What's the matter with them?&quot; Attila asked. &quot;They can't survive long on just groundnuts.&quot;</p>
+<p>&quot;They have also refused to eat your groundnuts or plant fruits,&quot; said the Taker.</p>
+<p>&quot;You sound like your brain-knot has stopped working, Crazy-Eyes,&quot; said Attila. &quot;If I didn't know you better, I would say you are getting too old to be the Taker.&quot;</p>
+<p>&quot;I am still the strongest of your warriors, O Terrible One,&quot; said the Taker fearfully. &quot;But I have even worse news, O Terrible One.&quot;</p>
+<p>&quot;Stop that 'O Terrible One' nonsense, Crazy-Eyes. I'm feeling great in this new body, and you know and I know that no other warrior of mine would be as good as you are for Taker-of-the-Emperor.&quot; He paused for a moment as a server brought in a raw chunk of Zebu Slink.</p>
+<p>&quot;That is, unless you don't come out on top at the next combat trials.&quot; Attila stuffed his eating pouch with the meat and started to suck on it noisily. He then tossed a few golden yellow crystals in on top of the meat.</p>
+<p>&quot;Excellent combination,&quot; he said. &quot;Now, tell me the bad news.&quot;</p>
+<p>&quot;They refused to take the new batch of Slink eggs.&quot;</p>
+<p>&quot;You sliced up the Clan Leader and a few Elders until you found someone in the clan who <em>would</em> take the eggs rather than die, didn't you?&quot;</p>
+<p>&quot;I tried to, O Terrible One,&quot; said the Taker, her tread stuttering in fear. &quot;But we were near the compound of the strange clan that made the food machine. They created an invisible barrier that stopped my riding-Swift.&quot; She paused as she saw his eye-wave pattern take on a slow, thoughtful motion. &quot;I did my best, Terrible One,&quot; she said.</p>
+<p>Attila finally broke his silence. &quot;Did your Swift have a burned tread?&quot; he asked.</p>
+<p>&quot;Yes!&quot; she replied, amazed at his question. &quot;I could not understand it. I could see no heat radiation coming from the barrier.&quot;</p>
+<p>&quot;That strange clan makes more than food machines,&quot; said Attila thoughtfully. &quot;You ran into a magnetic barrier. It takes more than a Swift to cross them. What else did you see?&quot;</p>
+<p>&quot;They have many machines. Some cover the crust with smooth roads, some spit out long tubes and bars of metal, and others crawl around cutting the metal into pieces to make other machines. They have even turned their giant flying machine into a machine that catches metal spheres that fall from the sky.&quot;</p>
+<p>&quot;Those are Old One tales from the days before the big crustquake,&quot; said Attila. &quot;Next you will be telling me that there are cheela that live among the stars.&quot;</p>
+<p>&quot;I saw two cheela get out of the sphere and unload some small machines,&quot; the Taker told him. &quot;Then they got back in the sphere and it was tossed back up into the sky.&quot;</p>
+<p>&quot;I don't like the idea of someone being able to come and go from Egg without my permission. What if all the slaves decided to go to live in the stars?&quot;</p>
+<p>&quot;The leader of the strange clan offered to give us all the machines we wanted, including new food machines that would make any kind of food Slink meat,&quot; she said. &quot;He said we wouldn't need herders or gatherers for food, and all the work could be done by machine. There wouldn't be a need for slaves anymore. I didn't like the sound of that.&quot;</p>
+<p>&quot;If there weren't any slaves,&quot; said Attila, &quot;there wouldn't be a need for an Emperor and his warriors.&quot; He jammed another hunk of raw Slink in his eating pouch. &quot;There is rebellion falling from the sky,&quot; he said. &quot;I shall crush it under my tread just as I did long ago.&quot; He wiped his manipulator on the crust and started moving toward the ancient Maze Temple in the middle of Bright Center.</p>
+<p>He found no guard around the maze. The slaves were so afraid of the place that they never came near. Attila ignored the entrance and circled around the outside until he came to a wide breach in the tall walls. As he flowed up over the crumbled blocks of rock, the Taker lagged behind.</p>
+<p>&quot;Come along, Crazy-Eyes,&quot; Attila ordered. &quot;You are not letting the Old One tales get to you, are you?&quot;</p>
+<p>&quot;I have heard there are death-traps in there,&quot; said the Taker.</p>
+<p>&quot;You heard correctly.&quot; Attila continued to follow the path of destruction into the interior. The Taker came to an abrupt halt. &quot;But the death-traps stopped working when I reached the power generator.&quot;</p>
+<p>They finally came to the last broken wall. It opened into a large room. In the middle was a pile of metal plates and old Flow Slow bones. Attila pushed the bones aside and picked up</p>
+<p>a metal plate as big as a large shield. He gave it a tap and it rang loudly.</p>
+<p>&quot;Feels solid,&quot; he said. He placed it on the floor of the room and flowed onto it, pulling the edge of his tread up until none of it touched the crust. He held the position for a moment.</p>
+<p>&quot;Did you hear my whisper?&quot; he asked. The metal plate gave his tread an echoing sound.</p>
+<p>&quot;I didn't hear a thing,&quot; said the Taker.</p>
+<p>&quot;Good,&quot; said Attila. &quot;It's still superconducting.&quot;</p>
+<p>He started moving more bones and stacking up the plates.</p>
+<p>&quot;Get some slaves in here to gather up all these plates,&quot; he said. &quot;You may have to persuade them a little with a whip-sword.&quot; Just then Attila felt a sharp pain in his tread. He looked down to see the blade of a pricker and a few crystallium eye-stub bones.</p>
+<p>&quot;Had to get one last cut, didn't you Qui-Qui,&quot; he said. His tread flicked, and the bones scattered across the room.</p>
+<p>&quot;Who's Qui-Qui?&quot; the Taker asked.</p>
+<p>&quot;Someone I knew long ago,&quot; said Attila.</p>
+<p>As they exited the breach in the maze wall Attila said, &quot;I remember ordering a zoo some time ago. I wanted to see all the animals that lived on Egg. Where is it?&quot;</p>
+<p>&quot;There has been a zoo in Bright Center since long before I was a hatchling,&quot; said the Taker.</p>
+<p>&quot;Take me there,&quot; said Attila, flowing up the tail of his riding-Swift.</p>
+<p>At the zoo, Attila rode rapidly by the holding pens until they came to the Flow Slow pen. He dismounted and slid through the narrow passage crack in the thick wall.</p>
+<p>&quot;They are dangerous, O Terrible One,&quot; warned a keeper.</p>
+<p>&quot;Quiet, slave!&quot; Attila said as the Flow Slow started toward him. &quot;Crazy-Eyes. Come here.&quot;</p>
+<p>The Taker got down from her mount and, short-sword at the ready, entered the cage.</p>
+<p>&quot;You keep moving right in front of it, tempting it on,&quot; said Attila. He moved to one side and held still. The attention of the Flow Slow shifted to the Taker. She moved away and the Flow Slow followed her. Attila rushed the animal from the back side and caught the leading edge of a plate as it rose from the crust and started to flow up to the top of the rolling animal.</p>
+<p>The Taker alternately poked and hollered at the front of the Flow Slow. The huge plates appeared over the top of the animal and looked as if they were falling directly down on her.</p>
+<p>Suddenly it sounded as if the Flow Slow were calling her name.</p>
+<p>&quot;Crazy-Eyes,&quot; came the muffled voice. &quot;Look up here!&quot;</p>
+<p>The Taker backed away to see Attila on top of the Flow Slow, his tread moving backward as the plates of the Flow Slow moved ponderously forward.</p>
+<p>&quot;I haven't forgotten how to do it,&quot; Attila said proudly. He thumped the animal hard on the top and it stopped moving, bewildered. He thumped it in another place, and it started flowing again.</p>
+<p>&quot;It's a stupid way to ride,&quot; he said as his tread started to move again to keep him on top of the animal. &quot;You don't get to rest your tread as you do riding a Swift. You have to walk as far as it does, only backwards.&quot; He prodded the Flow Slow until it was moving as fast as it could go, then nimbly rippled down the trailing edge onto the crust.</p>
+<p>&quot;Get some slaves and nail those superconducting plates to it. No magnetic barrier is going to stop me!&quot;</p>
+<p>&quot;It is so slow; it will take a great of turns to get to the stranger's compound,&quot; Taker said.</p>
+<p>&quot;I see you have never moved an army,&quot; said Attila. &quot;A few warriors on Swifts can move rapidly across the crust; but an army of warriors moves with the speed of a Flow Slow and, like a Flow Slow, eats everything in its path.&quot; He reached into a pouch and pulled out some dark red balls. He popped two into his eating pouch then rolled the rest into the path of the approaching Flow Slow.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="emperor1.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="emperor3.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="emperor1.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="emperor3.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

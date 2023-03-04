@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>10:10:11 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html" class="active">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="101011-gmt-tuesday-21-june-2050"><a class="header" href="#101011-gmt-tuesday-21-june-2050">10:10:11 GMT TUESDAY 21 JUNE 2050</a></h1>
+<p>He came from the north, subjugating all in his path. His name was Ferocious-Eyes, the Terrible One, and he rode on the back of a giant Swift. He was small, but his wiry, heavily speckled body was more than a match for any of the warriors in his army, for they feared the ferocious glare from his twelve pink eyes more than they did his whip-sword.</p>
+<p>As a two-great-old hatchling, just barely able to talk, he had been abandoned on the north slopes of the Exodus Volcano by the elders of his food-short clan. Without even one sharp-seeing &quot;common&quot; eye, the heavily speckled one would be useless for work in the fields. The hungry hatchling had found the nest of a pair of wild Swifts before the Swifts found him. When the Swifts returned, he was sitting, satiated, among the tattered remains of one of their eggs. Raised by the Swifts as one of their own, he soon was participating in raids on the herds of the clans around them.</p>
+<p>Many turns later, now a youngling, he rode into his old clan compound on the back of one of his nest brothers, flicking the whip-sword that he had invented by tying sharp shards of dragon crystal onto a long strand of woven fibers. Unreachable on his perch high above the ravenous five-toothed maw of his mount, he was invincible. He slashed the leader of the clan to shreds, fed him to his mount, and took over the clan. Until that time, he had no name. Now he took one, Ferocious-Eyes, from the awed whispers he could hear as he rode through the compound.</p>
+<p>Three dozen turns later Ferocious-Eyes was satiated. His eating pouches were satiated with food; his brain-knot was satiated with stories he had commanded from the Old Ones; and his ego was satiated with compliments from the fawning cheela competing for the scraps of food he discarded. His desire for power was not satiated, however, for he would never forgive the cheela race for abandoning him because he was too speckled.</p>
+<p>Ferocious-Eyes picked out three of the cheela in the clan, the speckled ones that had the most pink eyes, and taught them how to ride Swifts. It was easy for the speckled ones, for with their pink eyes, they could see subtle color changes in the hides and eyes of the Swifts that allowed them to read the moods of the dangerous animals. Ferocious-Eyes left one of his new warriors in charge of the clan and took the rest of his small army to conquer the next clan.</p>
+<p>The pattern of conquest of the Terrible One was simple. His army would surround a clan compound, then he and a small group of bodyguards would ride into the compound. He, personally, would challenge the leader of the clan. If the leader was foolish enough to attempt to duel, he soon was meat for Ferocious-Eyes' Swift. The army would stay long enough to feed themselves and their mounts, disarm and subjugate the clan, pick and train some recruits, then move on, leaving one or two of their number to keep the clan under control. At some of the first clan compounds they had experienced resistance, but any opponents left alive after the battle was over had all but one eye lopped off and were set free to bring a warning to the next clan.</p>
+<p>The Terrible One, now at the head of a small roving army, had six captains who each led a dozen mounted picked warriors. They were supported by a much larger army that extracted food and supplies from the subjugated clans and transported it by long lines of porters that stretched from the West, North, and East Poles to wherever the army was. The lines were now converging on the northern outskirts of Bright's Heaven.</p>
+<p>&quot;We are coming upon Bright's Heaven, O Terrible One,&quot; said Falling-Quint &quot;The home of Qui-Qui, the God of Youth and Knowledge. She lives in a Maze Temple protected by magic. It is said that no one but her has been able to find the way to the center of the maze.&quot;</p>
+<p>&quot;She is no more a god than I am,&quot; said Ferocious-Eyes.</p>
+<p>&quot;But they say she can talk to the stars and fly in the sky. They also say she is forever beautiful and never dies.&quot;</p>
+<p>&quot;She can do no more than the ancient ones that lived before the big crustquake,&quot; said Ferocious-Eyes. &quot;God or not, I bet the juices will still come out when you throw one of your quirrls down on her.&quot;</p>
+<p>His Swift roared and snapped at the Swift carrying Falling-Quirrl. They both had to slap their mounts on their sensitive eyes before they could quiet them down.</p>
+<p>&quot;The Swifts are getting hungry,&quot; she said.</p>
+<p>&quot;We'll stop here and kill a Flow Slow to feed them.&quot; Ferocious-Eyes slid down off the tail of his mount. His tread slapped the crust in a loud command.</p>
+<p>&quot;Where is that slave carrying the sparkling wine?&quot; he demanded. &quot;I'm thirsty!&quot;</p>
+<hr />
+<p>&quot;The Terrible One is just north of the city,&quot; the messenger reported. &quot;They have stopped to eat and feed their mounts.&quot;</p>
+<p>&quot;The Terrible One,&quot; mused Qui-Qui, suddenly very tired. The rejuvenation robot had been pestering her to undergo yet another rejuvenation, but she had been putting it off as the news of the Terrible One had been coming in.</p>
+<p>&quot;It seems like history on Egg is following the history of Earth. We even have our own Attila. Only instead of Attila-the-Hun, Scourge of God, he is Attila-the-Speckled, Scourge of Bright.&quot;</p>
+<p>&quot;We had better leave,&quot; said Linear-Spring, one of the mechanical engineers. &quot;The Terrible One is irresistible.&quot;</p>
+<p>&quot;No,&quot; said Qui-Qui. &quot;If he is anything like the Attila-the-Hun of Earth, he will not stop until he has conquered all of Egg or dies. If we leave, he will just follow us. We will stay and fight.&quot;</p>
+<p>&quot;But he has six dozen mounted warriors with him, and dozens and dozens more in reserve.&quot;</p>
+<p>&quot;We <em>must</em> stay and fight.&quot; Qui-Qui picked up a pricker and a long pike. &quot;And he cannot be allowed to win, for if he does, then the Dark Ages will surely fall on Egg, as they once did on Earth.&quot;</p>
+<p>Ferocious-Eyes moved unopposed through the deserted city of Bright's Heaven. He stopped his army when they came to the Maze Temple. He and Falling-Quirrl circled all around the outside wall. There were a few windows in the high wall, but they were barred and the sliding panels had been shut tight. Every few millimeters there were portholes—some at crust level and some at eye level. Through a few ports they caught the glimpse of an eye-ball looking out at them. Along the top of the wall there ran a spiral of metal. Occasional flashes of light appeared in the loops.</p>
+<p>&quot;Those must be the 'magnetic barriers' our newest slaves told us about,&quot; said Falling-Quirrl.</p>
+<p>&quot;It is strange that something that is not hot and glowing can burn.&quot; Ferocious-Eyes suddenly whipped his Swift and rode directly at the wall between two portholes, flicked a tendril at the top of the wall and rode away again.</p>
+<p>&quot;It burns,&quot; he said, sucking the tip of his tendril. &quot;We can't go over.&quot;</p>
+<p>There was only one entrance to the Maze Temple. It was large, and because it had no door or bars it looked ominous. The entrance opened into four narrow corridors that immediately took sharp turns as they branched off into the maze. The corridors were too narrow to allow a Swift to pass.</p>
+<p>Ferocious-Eyes gathered his warriors,</p>
+<p>&quot;Falling-Quirrl. You and your warriors will dismount and prepare to enter. Three into each corridor. Arm yourselves with short swords and prickers for close combat. The rest are to ride your Swifts up to the wall on either side of the entrance and fill those portholes with pikes and quirrls. If they can't see, they can't fight.&quot;</p>
+<p>The picked vanguard of the Speckled Horde arranged themselves in a rough line, one sharp-seeing 'common' eye always watching their commander. He unpouched a pair of limber-swords and waved them in a complex pattern.</p>
+<p>&quot;Attack!&quot; he shouted.</p>
+<p>They charged, the mounted warriors rapidly outdistancing Falling-Quirrl and her dozen warriors on tread. As the Swifts moved across the bare ground, they began to roar and swerve to one side or the other despite the efforts of their masters to keep them under control. From a porthole in the wall an eyeball was watching.</p>
+<p>&quot;The undercrust magnetic barriers are bunching them up into the firing lanes,&quot; Weber-Gauss reported to the control room. &quot;Let loose the terror tops!&quot;</p>
+<p>Ferocious-Eyes suddenly heard high-pitched screams arising from all along the outer wall of the maze. Through the holes at crust level there emerged a stream of spinning screaming objects that danced across the crust. They were wide at the top and narrowed down to a tiny point at the bottom. By some magic means they were able to stay balanced on the tiny point instead of falling over as one would expect.</p>
+<p>Sticking out from the whirling body of the screamers were sharp knives that slashed long gashes in Swift and warrior alike. Panicked by the high-pitched screams, the Swifts bolted and the warriors fled.</p>
+<p>One of the screamers came straight at Ferocious-Eyes. He watched it come, then gave it a flick with the tip of his whip-sword. The screamer changed course and curved around his nervous mount. Ferocious-Eyes rode to meet the fleeing Falling-Quirrl.</p>
+<p>&quot;I said for you to attack! <em>Look</em> at me!&quot;</p>
+<p>Falling-Quirrl stopped instantly and all her eyes went up on rigid stalks. Ferocious-Eyes rode up to the nearest eye-ball, formed a pincer manipulator and slowly crushed the eye-ball.</p>
+<p>&quot;Attack,&quot; he said.</p>
+<p>Falling-Quirrl gathered her warriors and led them back toward the waiting entrance to the deadly Maze Temple. The Swifts refused to approach the wall, and all the warriors were forced to dismount and make their way on tread across the open ground.</p>
+<p>More of the spinning screamers came from the wall, but the surprise was gone. The speckled warriors continued their advance. They tried to dodge the screamers and stabbed at them with their pikes and swords to knock them over, but the strange random motion of the screamers across the crust and their rigid resistance to being pushed over caused many casualties. The remaining warriors finally got close enough to the wall that most of the screamers now shot out past them.</p>
+<p>&quot;The terror tops have them bunched into the firing-tube target areas,&quot; Weber-Gauss reported to the control room. &quot;Initiate ripple-barrage on areas one through eight.&quot;</p>
+<p>A series of explosions from inside the Maze Temple caused the advancing warriors to hesitate and look all around for danger. They saw nothing, then died, as heavy weights struck at them from out of the sky and pierced them from topside to tread. The limber-swords swinging about Ferocious-Eyes were still flashing the &quot;attack&quot; pattern, so they pressed on.</p>
+<p>&quot;They are now in the range of the flame throwers,&quot; reported Weber-Gauss.</p>
+<p>Jets of violet-hot flame came from some of the eye-level portholes and swept back and forth, leaving pools of flaming liquid and screaming blistered warriors. One warrior who managed to reach the wall between two portholes slid a shield over a flame hole between bursts. The flame thrower backfired and an explosion behind the wall sent flames and pieces of bodies flying through the sky. The speckled one moved in front of the porthole and repeatedly jabbed the end of a pike in the hole to keep it from being reused. One after another, the flame throwers fell silent as porthole after porthole was blocked by a crust-rock or pike guarded by a singed, sliced, and angry speckled warrior.</p>
+<p>Only six of Falling-Quirrl's warriors made it to the entrance. She sent two each into three of the corridors, then she entered the fourth alone.</p>
+<p>&quot;The pressure sensors indicate seven targets.&quot; Mega-Bar was monitoring the indicators on the maze map in the west wall control room. &quot;There are two each in the dead-end corridors and one entered the main maze trail.&quot;</p>
+<p>&quot;Let them pass over the first traps, then reactivate those behind them,&quot; said Neutron-Gas. &quot;That way we can get them coming or going.&quot;</p>
+<p>Falling-Quirrl moved slowly along the narrow corridor. She jabbed a pricker into every porthole before passing and looked carefully for traps. The point of her short sword poked hard into the crust in front of her before she put her tread on it. When she reached the striped section of corridor, she was especially careful. She prodded the ground and walls with her sword and pushed her shield ahead of her with the front portion of her tread weighing it down. Nothing happened, and she passed over.</p>
+<p>In the distance she heard a crackle and a scream. It sounded like Nasty-Scar. Almost immediately there was a sharp explosion and another scream. She came to another striped area and started across it using her shield under her tread again. There was a loud explosion and a dented shield flew up from under her shocked tread. The shield came down on top of the wall, pushed down on the magnetic barrier until it glowed and hummed, then fell back down into the corridor, nearly hitting her.</p>
+<p>Ferocious-Eyes waited and waited for Falling-Quirrl and her warriors to emerge. Finally they did, their bodies pushed one-by-one out of the entrance by a little machine that just fit neatly between the narrow corridor walls. Three had been burned by a strange flame that cooked holes through their bodies, and three had deadly puncture wounds that went from tread to topside.</p>
+<p>The last one pushed out was Falling-Quirrl. Ferocious-Eyes sent the butchers to pick up the body, but they brought her to him, for she was still alive despite the large oozing holes in her. Two-thirds of her body was paralyzed from damage to her brain-knot, but she was able to talk with the rest of her tread.</p>
+<p>&quot;They have traps that they can turn on and off. I passed over one on the way in. It got me on the way out. I played dead. They stabbed me only a few times through a hole in the wall, then left me. They are weaklings, unused to killing. I would have made sure with a thrust to my brain-knot.&quot; She held out her dented shield.</p>
+<p>&quot;My shield struck the 'magnetic barrier' and was not burned. Maybe with many shields or one large one, we can keep the barrier from burning us.&quot;</p>
+<p>Ferocious-Eyes tried her shield on the magnetic barriers in the open areas outside the wall. He found that he could indeed pass over it if he narrowed his body down so that it stayed on the shield. Other shields didn't work, however. They interrogated some of their new slaves from the local clans and found out that what was needed was a special metal called a &quot;superconductor.&quot; The slaves were sent into Bright's Heaven to scavenge sheets of this &quot;superconductor&quot; to make into shields.</p>
+<p>Turnfeast came, and it was time to feed the warriors and their mounts. There was plenty of meat for the warriors, as the butchers had been busy after the battle. The Swifts didn't get cheela meat, however. It was too good to waste on them, and besides, it wouldn't do for them to learn that their riders were so tasty. The Swifts got Flow Slow meat from the herd that traveled with the army.</p>
+<p>Ferocious-Eyes was bored, so he decided to kill the Flow Slow himself instead of letting the butchers do it. One of the butchers scampered up the trailing edge of the animal to the top and drove the Flow Slow straight at his leader.</p>
+<p>Ferocious-Eyes, pike sticking straight up, waited as the Flow Slow moved ponderously toward him. It was a huge one, twice as tall as the walls around the Maze Temple. He watched carefully as the square plates of bony armor, each as large as a shield, flowed over the top of the creature and down. He fixed on a weak spot between the moving plates, rushed forward to insert the pike into the chink, then reversed tread to get out from under as the Flow Slow impaled itself on the pike and flowed.</p>
+<p>Ferocious-Eyes left the butchers to their work. As he moved away, his eye-stubs were waving slowly in deep thought. Instead of joining his warriors feasting on their comrades, he merely snatched a roasted eye-stub from the carcass of Falling-Quirrl and sucked on the eye-ball as he made his way to the area where the slaves were working on producing superconducting shields. He stopped and looked in disappointment at the eye-stub. He had unfortunately grabbed the eye-stub with the crushed eye-ball, so the eye-ball hadn't squirted juice out into his eating pouch when he had sucked on it.</p>
+<p>Ferocious-Eyes was in a bad humor when he arrived at the slave pens. He called the slave in charge of the armory away from his meager turnfeast.</p>
+<p>&quot;Do you see that large Flow Slow over there?&quot; he asked the slave, his eye-stubs pointing to a herd grazing nearby. &quot;The big female.&quot;</p>
+<p>&quot;Yes, O Terrible One,&quot; the slave replied.</p>
+<p>&quot;Instead of making shields out of the 'superconductor' metal, I want you to make metal covers for the plates on that Flow Slow.&quot;</p>
+<p>&quot;Don't ask me to do that, Terrible One,&quot; said the slave. &quot;A Flow Slow is dangerous if it is angry, and it will surely be angry if we try to nail plates to it.&quot;</p>
+<p>&quot;You have three turns,&quot; said Ferocious-Eyes. &quot;After that it will be an eye for each turn you are late.&quot; He tossed the disappointing eye-stub to the crust and returned to the turnfeast to get another. The slave picked up the discarded food, but somehow the eye-stub didn't taste as good as he had thought it would.</p>
+<p>&quot;It has been five turns and he still doesn't do anything,&quot; said Qui-Qui. &quot;The warriors circle around out of range of the Terror-Tops, keeping anyone from going out or coming in, but they don't attack. They must be planning something, but what? Levitate me with the gravity machine. Maybe I can see something.&quot;</p>
+<p>&quot;We will have to turn off the power to the defenses to activate the machine,&quot; said Weber-Gauss. &quot;But we should be safe enough if we make it short.&quot;</p>
+<p>A dothturn later, the speckled warriors surrounding the Maze Temple went on alert as a deep humming started in the crust. The hum rose to a whine, and out of the middle of the Temple the God of Youth and Knowledge ascended. She went up ten centimeters and stopped. Coming toward her from the outskirts of Bright's Heaven was what looked like a huge robot. No. It was a Flow Slow, covered with metal. On top was a tiny speckled creature.</p>
+<p>Following the armored Flow Slow was the Speckled Horde, recuperated from their wounds and back at full strength. Qui-Qui felt her spirits sink along with her body as the gravity machine brought her back down again.</p>
+<p>Ferocious-Eyes wasted no time with preliminaries. Either the Flow Slow would conquer the Maze Temple for him or it would fail. Riding on its topside, he rippled backward as the metal-covered plates moved forward underneath him. His two bodyguards kept the Flow Slow moving and on course with occasional pricks between the armored plates. They moved over the outer magnetic barrier with ease, the crust giving off bolts of electricity as the coils failed under the increased magnetic pressure.</p>
+<p>He waited while his warriors silenced the flame throwers along a section of wall, then urged his gigantic metal mount forward. The falling plates of superconductor, backed by the massive weight of the Flow Slow, pressed against the ultra-strong magnetic barrier along the top of the outer wall. The coils of wire hummed as the barrier resisted the pressure, then the atmosphere sparked with energy as the coils collapsed.</p>
+<p>Bellowing from the pricks of the tiny ones riding on its topside, the armored Flow Slow pushed over the outer wall, toppling it into the next wall of the maze. The Flow Slow continued on and entered a secret room, reachable only by a subterranean tunnel. It was one of the control rooms for the outer maze defenses. Quirrls from the bodyguards on either side of Ferocious-Eyes pinned the acolytes to the crust.</p>
+<p>The Flow Slow moved over the bodies and crashed through another wall, heading for the center of the Maze Temple. One bodyguard was struck by a falling weight that had been fired upward from a tube in the corridor through which they passed. The strong thread tied to the weight dragged her off the top of the Flow Slow. She fell to the crust and burst.</p>
+<p>Ferocious-Eyes pricked the Flow Slow to drive it harder as it breeched the next wall. They were now in a large inner room that held a number of acolytes. He could hear their treads talking rapidly, but they didn't seem to be speaking to one another.</p>
+<p>A flickering image of a strangely bloated cheela floated in the center of a magic window embedded in the floor.</p>
+<p>&quot;Attila has managed to ride a Flow Slow right over the walls. He is penetrating deep into the maze.&quot; The speaker looked up as the wall came down. &quot;Attila is here! We are lost!&quot; He started to run, but was trapped and crushed along with the others as they tried to flee through the one exit from the communications room.</p>
+<p>Three more walls and the Flow Slow reached the center of the complex. Ferocious-Eyes stopped the Flow Slow and looked around. In the center of the room were a jumble of boxes connected with heavy tubes. Against one wall was the most beautiful female cheela Ferocious-Eyes had ever seen. She was carrying a pike and what looked like a pricker, but it was hard for his eyes to make out something that small.</p>
+<p>&quot;You must be Qui-Qui,&quot; Ferocious-Eyes said. &quot;The cheela who never dies.&quot; He inserted a quirrl into a specially trained throwing pouch. &quot;Let's see if your magic can protect you from a quirrl.&quot; The quirrl flashed down through the air and buried itself deep in the crust just in front of Qui-Qui. He started to reload, when she rushed forward to slash him with her pike. He brushed back his bodyguard, twirled his whip-sword forward and cut the end off the pike. The return flick cut a slash across Qui-Qui's topside. She didn't feel it.</p>
+<p>With her pike gone, Qui-Qui retreated to the jumble of pipes and valves that made up the central power distribution system for the maze complex. The power generator itself was hidden in the old underground laboratory of Zero-Gauss.</p>
+<p>She tried to goad Attila off his nearly invincible perch.</p>
+<p>&quot;And you must be Attila-the-Speckled,&quot; she said. &quot;I hear you are called 'Ferocious-Eyes.' 'Weak-Eyes' would be more like it after missing big targets like these.&quot; She flapped her lower eyeflaps at him. &quot;Come and get me, my little speckled hatchling child.&quot;</p>
+<p>The insult of being called a &quot;child&quot; nearly made Ferocious-Eyes lose control, but he calmed himself down. Whip-sword flickering in front of him, he prodded the Flow Slow from behind and forced it into the jumble of tubes and boxes. Qui-Qui clambered away. The Flow Slow mounted a box. The large valve inside gave way and gigantic surges of power burned through the huge body. The Flow Slow died and spread out, breaking other power connections. The automatic defenses of the Maze Temple collapsed and the Speckled Horde rushed in.</p>
+<p>Qui-Qui was crushed against the wall by the spreading body of the Flow Slow.</p>
+<p>Ferocious-Eyes slid down off the dying Flow Slow and approached Qui-Qui. Suddenly a section of the wall slid aside and a dome-shaped metal object appeared. It moved and talked and seemed to be alive.</p>
+<p>&quot;Are you ready to undergo rejuvenation?&quot; the robot asked.</p>
+<p>&quot;No!&quot; shouted Qui-Qui, her tread muffled by the crushing body of the Flow Slow. &quot;Don't talk to him! Reset! Stop! Deactivate circuits!&quot;</p>
+<p>&quot;I cannot obey that command,&quot; the robot replied. &quot;I must keep the rejuvenation machinery running.&quot;</p>
+<p>Qui-Qui didn't answer. The robot moved over to her and examined her body with its sensors.</p>
+<p>&quot;She is dead. She waited too long for rejuvenation.&quot; The robot turned toward Ferocious-Eyes. It moved around him, sensors in operation.</p>
+<p>&quot;You are in excellent muscle tone, ready for instant rejuvenation,&quot; said the robot. &quot;Would you like a young new body?&quot;</p>
+<p>&quot;Yes!&quot; Ferocious-Eyes kept his eyes on the moving, talking magic dome of metal.</p>
+<p>&quot;First we must prepare the records for the Combined Clans Rejuvenation Board.&quot; The robot pulled a scroll out of a compartment. &quot;Name?&quot;</p>
+<p>Ferocious-Eyes thought for a moment. A new body deserved a new name. A name like no other.</p>
+<p>&quot;Attila,&quot; he stated proudly.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="barbarian.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="barbarian2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="barbarian.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="barbarian2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

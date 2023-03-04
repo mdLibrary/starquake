@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>21:04:16 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html" class="active">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="210416-gmt-tuesday-21-june-2050"><a class="header" href="#210416-gmt-tuesday-21-june-2050">21:04:16 GMT TUESDAY 21 JUNE 2050</a></h1>
+<p>Attila rode his Swift at the head of his army. Group after group, each led by a greaturion who commanded a great of mounted warriors, stretched out down the long paved road toward the west. Beside Attila rode the Taker.</p>
+<p>&quot;A nice road the strangers have made for us,&quot; the Taker said. &quot;The quicker to hasten their deaths.&quot;</p>
+<p>&quot;It looks freshly paved,&quot; said Attila. &quot;I don't understand that, or the warm spots either.&quot;</p>
+<p>&quot;Warm spots?&quot; asked the Taker.</p>
+<p>&quot;Shove those black eye-balls under your floppy eye-flaps and use the pink eyes Bright gave you,&quot; Attila snapped.</p>
+<p>The Taker lowered all her normal eyes and looked with her pink ones at the road. She could see ragged spots of ultra-red along the road, as if something warm were underneath.</p>
+<p>&quot;What are they?&quot; the Taker asked.</p>
+<p>&quot;I don't know. And I don't like things I don't understand.&quot;</p>
+<p>They reached the outskirts of the stranger's compound. The lead warriors halted. It would take nearly a turn for the rest of the long column to gather.</p>
+<p>Attila had been looking forward to this battle. It was the first time in many generations that he had felt the tingle of danger rippling over his hide.</p>
+<p>&quot;Bring up those Flow Slows!&quot; he commanded. &quot;And the first dozen greaturions report to me.&quot; The twelve group leaders rode up on their Swifts and gathered around him.</p>
+<p>&quot;I will ride the first Flow Slow over the barriers at the main entrance,&quot; said Attila. &quot;The first four groups are to follow me in.&quot; He turned to the greaturion of the Fourth Group. &quot;Torn-Tread!&quot;</p>
+<p>&quot;Yef, O Terrible One.&quot; Torn-Tread's tread was lisping because of the massive scar from the bite of a Swift.</p>
+<p>&quot;You will ride the second Flow Slow over the barriers to the right, and Groups Five through Eight will follow you. Eleven-Eyes will take his Flow Slow to the left.</p>
+<p>&quot;Bring up my Flow Slow!&quot; he ordered, sliding down off his Swift. The Swift stayed with its mate, which was being ridden by the Taker.</p>
+<p>&quot;It is almost turnfeast,&quot; reminded the Taker.</p>
+<p>&quot;We will not stop for turnfeast,&quot; said Attila. &quot;My warriors will eat the meat of the strangers for their turnfeast.&quot;</p>
+<p>Attila scampered up the trailing edge of the Flow Slow and took over control of the great animal. The greaturions whirled their mounts around and raced back to gather their groups. The warriors saw Attila on the Flow Slow, heard the shouts of their greaturions, and immediately dashed forward, their war-cries mingled with the roars of their Swifts.</p>
+<p>&quot;They're attacking!&quot; yelled Crust-Crawler. &quot;He's not even going to talk to us first!&quot;</p>
+<p>&quot;It has been a long time since the Terrible One has had an excuse to fight,&quot; said Dented-Shield. &quot;He was afraid you would surrender.&quot;</p>
+<p>&quot;We'll give him a fight,&quot; Crust-Crawler promised. &quot;Fire the antimatter mines!&quot;</p>
+<p>Engineer Power-Pack closed a switch and in a rippling roar, the road to the west exploded under the treads of the Speckled Horde. Swifts and their warrior mounts were torn apart by the explosions and tossed to the sides of the road. Those that had been along the edges of the road or between the mine emplacements immediately left the road, only to be met by two more rippling roars as two more strings of mines on either side of the road went up.</p>
+<p>Attila felt a dull thump through the body of his Flow Slow as the antimatter mine went off. The Flow Slow gave a deep rumble of pain, but continued on under the prickling from the creature above it. Attila could sense the animal was hurt. But, except for a cracked plate underneath its armor cover, it was still functional.</p>
+<p>He looked out from his vantage point on top of the Flow Slow and surveyed the damage that had been done to his army. Unlike the Flow Slow, the army had been badly hurt by the sneak attack. The warriors had not panicked under the attack and were still moving forward toward the enemy, but they were not in their usual group formations. They all had at least one eye fixed on their Emperor.</p>
+<p>Attila pulled out his limber-swords and flashed them in a complex pattern about his body. The warriors halted their disorganized rush and looked about for a greaturion. The greaturions, limber-swords signaling, gathered the warriors that were around them, then signaled their leader. There were only six groups now—half the warriors had been killed by the antimatter mines. Limber-swords flashing, Attila lined up the groups behind the three Flow Slows and the attack continued.</p>
+<p>&quot;Let's get this beast moving!&quot; Attila called, as he jabbed the point of the pricker between the cracks in the Flow Slow's armor. He marched backward as the Flow Slow ponderously moved forward. He looked upward at the large sphere hanging in the sky above him. He refused to be awed by it. The sphere would fall once the fort fell and the power was turned off.</p>
+<p>High above the battlefield Star-Counter watched the developing action and reported down to her friends below.</p>
+<p>&quot;First two groups now within range of the fountain-tubes,&quot; she said. &quot;Coordinates one-three and one-six.&quot;</p>
+<p>&quot;One-three fired,&quot; said Metal-Bender, throwing small switches on his console. &quot;One-six fired.&quot; Racks of long, nearly vertical tubes fired in salvos and dozens and dozens of tiny heavy balls shot up into the sky to fall like tiny avenging meteorites on the Speckled Horde. The crust vibrated with the cries of punctured warriors and Swifts, but the attack moved on.</p>
+<p>&quot;Coordinates one-two. Coordinates one-seven. Coordinates two-three,&quot; Star-Counter reported from above.</p>
+<p>Down below, Attila took out his limber-swords and flashed another signal. The greaturions now switched their advance to a zig-zag pattern. Many of the deadly falling balls missed their targets. Attila heard a grunt as the warrior next to him took a ball through the brain-knot. His dead body, carried over the front of the Flow Slow by the moving plates, was crushed into the crust beneath.</p>
+<p>'Three-three. Four-seven. Four-two. Five-seven. Six-seven. Seven-seven,&quot; said Star-Counter.</p>
+<p>&quot;My tubes are empty,&quot; Metal-Bender said.</p>
+<p>&quot;Attila's Flow Slow has almost reached the barrier and the other two are not far behind,&quot; Crust-Crawler told them. &quot;We have got to stop those Flow Slows! Activate the robots.&quot;</p>
+<p>The tubes that acted like fountain plants had finally stopped shooting pellets. They were approaching the barrier. Attila slowed his Flow Slow, wary of new surprises. Lying in front of the nearly invisible magnetic barriers were complex chunks of metal. Suddenly, they seemed to come alive. Each one had a number of large manipulators that pinched, cut, or burned. The robots had been programmed to go after the Flow Slows, especially the riders on top. Some were crushed under the massive armored plates, while others scurried around to the trailing edge and started to ride up on top. They were impervious to sword blades; and once a Swift had encountered one of the cutting, burning, pinching robots, they refused to go near them again.</p>
+<p>&quot;Use your quirrls!&quot; Attila shouted to the mounted warriors around them.</p>
+<p>The warriors loaded their specially adapted pouches with short heavy quirrls and used their internal muscles to throw the quirrls in a short arc from their perches high up on their Swifts. The quirrls punctured the metallic hides of the robots, leaving a glowing wound. Some stopped working; some were pinned to the crust; but the others kept on.</p>
+<p>&quot;Two are climbing the Flow Slow!&quot; said one of the warriors next to him.</p>
+<p>&quot;Throw quirrls!&quot; Attila was thumping the Row-Slow hard to make it reverse itself. The robots now had to climb against a down-flow of moving plates, and they slowed their advance. First one, then the other was picked off by quirrls. The Flow Slow groaned again. One of the quirrls had found a chink in its armor. The Flow Slow was now surrounded by a swirling mass of Swift-riding warriors that had silenced the rest of the robots as they tried to attack.</p>
+<p>&quot;The robots got two of the Flow Slows,&quot; Star-Counter said.</p>
+<p>&quot;We can hear that through the crust,&quot; said Crust-Crawler over the bellows from the Flow Slows. &quot;It can't be pleasant having a construction robot cutting and burning its way down to your brain-knot.&quot;</p>
+<p>With a wailing cry, the bellows stopped. The remaining Flow Slow echoed the cry of its dying mate, then returned to its usual complaining groans as the mite on its topside pricked it into motion once again.</p>
+<p>&quot;They didn't get the important one,&quot; said Crust-Crawler. &quot;Attila is going to breach the magnetic barrier.&quot;</p>
+<p>&quot;Follow me,&quot; Attila shouted. Limber-swords whirling a victory flourish, he urged the armored Flow Slow up onto the magnetic barrier. The crust groaned as the generators attempted to maintain the field, then the barrier fell. With shouts of triumph, the vanguard of the Speckled Horde poured through the opening. They fell back as they were met by a barrage of positron beams that ate holes in their hides. The positron beamers had limited range in the tenuous atmosphere, but the range of the beamers was longer than the range of the quirrls. The quirrls, however, could be thrown in any direction, while the positron beams spiraled along the east-west magnetic field lines. The spacers with their beamers and the warriors with their quirrls sparred with each other at long distance like knights fighting bishops in a weird end game.</p>
+<p>&quot;Herders! Spread your stickers!&quot; Letter-Reader shouted to his clan. He then ran out between the knots of fighters and threw tiny tread stickers in the path of the Swifts. His actions were followed by others. The moving Swifts ran into the stickers and roared as they came to a halt. Their riders cursed and slashed at them to get them moving again, but many were caught by the stinging positron beams.</p>
+<p>Slowly, relentlessly, the defenders were driven back. Attila again raised his limber-swords and signaled a command. The warriors about him cursed with anger, then fought all the harder.</p>
+<p>&quot;What happened?&quot; Crust-Crawler asked Dented-Shield.</p>
+<p>&quot;Attila has decided to call in the rest of his army,&quot; said Dented-Shield. &quot;The first echelon is angry that they did not finish the battle by themselves.&quot;</p>
+<p>&quot;They are coming fast,&quot; Star-Counter told them.</p>
+<p>Attila signaled again, and the warriors about him disengaged and retreated to set up a guard to protect the gap in the magnetic barrier. As the rest of his army approached, Attila slid down the backside of the Flow Slow and mounted his riding Swift. Limber-swords flashing, he triumphantly led the Speckled Horde through the gap.</p>
+<p>&quot;Let loose the slicer-gliders!&quot; Crust-Crawler yelled. &quot;Be careful how you point them, they can't tell friend from foe.&quot;</p>
+<p>Dozens upon dozens of small powered gliders zoomed across the crust. On their topsides glistened three long razor-sharp blades, which caused many a warrior to abandon his damaged mount. But even an unmounted warrior from the Speckled Horde was a formidable foe. Great upon great, the Swifts and their riders flowed through the gap. The fountain tubes had been reloaded and belched once again. Positron beams flickered through the atmosphere to eat holes in flesh, and glide-cars driven by reckless spacers spewed antimatter bombs from each side until the driver was stopped with a whip-sword or a quirrl to the brain-knot. The defenders were driven back of their last magnetic barrier. The armored Flow Slow was moved forward once again.</p>
+<p>A battered glide-car slid to a stop beside Crust-Crawler and Dented-Shield. The driver was Avenging-Eye. His pouches were stuffed with heavy objects.</p>
+<p>&quot;We've got to stop that Flow Slow,&quot; said Avenging-Eye. &quot;Lower the barriers while I get across.&quot; Without waiting for a reply he jammed his speed control into high and headed directly for the barrier.</p>
+<p>&quot;Stop!&quot; cried Crust-Crawler after him, then signaled to Engineer Electro-Magnetic. The barrier dropped; the glide-car shot across, and the barrier popped back up again.</p>
+<p>&quot;A crazy fool,&quot; Eleven-Eyes told Attila. &quot;Advance with quirrls!&quot; he commanded to his warriors behind him.</p>
+<p>&quot;He's after the Flow Slow!&quot; shouted Attila, slapping his Swift into action. The Taker's Swift was already past him, and she was unsheathing her whip-sword. Avenging-Eye feinted a turn and rolled an antimatter bomb toward her, but she knew his target and could not be fooled. He increased the speed of his glide-car to maximum, trying to get by her, but her whip-sword caught him in the side. Avenging-Eye exploded as the antimatter bombs in his stuffed pouches went off in a gigantic explosion. The remains of the glide-car slid under the plates of the still advancing Flow Slow.</p>
+<p>A dazed Taker wiggled out from under her dead Swift, ordered a warrior off his mount, and was pulling out a new whip-sword from her weapons pouch when Attila arrived.</p>
+<p>&quot;Only a miracle can save us now,&quot; said Crust-Crawler.</p>
+<p>Suddenly a cry of anguish arose from the advancing army. The cry was repeated by some of the friendly clan warriors nearby.</p>
+<p>&quot;Attila and his warriors are pulling in their eye-balls,&quot; Dented-Shield observed in bewilderment.</p>
+<p>&quot;It's too bright!&quot; Letter-Reader shouted, pulling in three of his eyes.</p>
+<p>&quot;What's too bright?&quot; asked Crust-Crawler.</p>
+<p>&quot;It's an ultra-red beacon from the center of the Eyes of Bright. It makes my pink eyes ache.&quot;</p>
+<p>&quot;The humans have turned on their laser!&quot; Crust-Crawler exclaimed.</p>
+<p>&quot;Most of the Horde have only a few eyes up,&quot; said Dented-Shield. &quot;They are having trouble controlling their riding-Swifts.&quot;</p>
+<p>The Taker pulled in her speckled eyes and looked out with her two common eyes. She had to sweep them back and forth to find out what was going on around her.</p>
+<p>&quot;Stop that light!!!&quot; Attila roared, all of his eyes under their flaps. He had been proud that none of his eyes were common, though it meant that he could never read the small writing on a scroll.</p>
+<p>Both the Taker's and Attila's riding Swifts were struck by slicer-gliders and stopped to tend their wounds. The ultra-red light glared on.</p>
+<p>&quot;These stupid Swifts are useless,&quot; Attila shouted. He drew his three limber-swords and slid down the back of his Swift, the flickering swords protecting his flanks from unseen enemies as he tried to peer out from under his eyeflaps at the glaring hostileness. The Taker slid down to stand beside her leader.</p>
+<p>A screaming shriek passed by one side of them, then another seemed to pass under them. It was only after the tiny missile with the supersharp vertical blades had passed that the Taker realized her tread was slippery and the muscles didn't work well anymore. Attila screamed again and leaned his small muscular body against hers as he tried to lift his tread from the torture of another slicer-glider.</p>
+<p>The riding-Swifts were easy to kill, Crust-Crawler recalled later. Without their riders to protect them, they were easy targets for a positron beam. The speckled warriors were tougher, even though they were mostly blind; for once on the crust, they could sense an enemy coming through their tread and most of them had one or more common eyes to see with. Attila, however, had none.</p>
+<p>The battle grew old, but the ultra-red light from above glared on and on.</p>
+<p>&quot;Will it never end!&quot; shouted Attila, his limber-swords flickering about him in an interwoven shield. The Taker had moved away from him to avoid the blades.</p>
+<p>&quot;The humans take forever to do anything,&quot; Crust-Crawler said from a short distance away. &quot;For once let Bright delay them some more.&quot;</p>
+<p>&quot;Come and get me, slaves,&quot; said the Taker, her whip-sword flickering on the crust. The muscles in her weapons pouch fired a quirrl, but the bolt fell short and vibrated in the crust. She flashed her whip-sword about her body menacingly.</p>
+<p>&quot;With pleasure,&quot; Dented-Shield said, raising her shield and pike. The Taker's whip-sword whirled faster as she advanced on Dented-Shield.</p>
+<p>&quot;Wait, Dented-Shield,&quot; called Crust-Crawler.</p>
+<p>Standing off at a safe distance, far from the reach of the whip-sword, he shot the Taker with a positron beam. It made a large hole.</p>
+<p>Juices oozing from tread and hide, the Taker snaked out her whip-sword to take an eye from her tormentor. A dented shield blocked the slash. Another bolt from the antimatter weapon burned deep into her brain-knot.</p>
+<p>The Taker flowed.</p>
+<p>The crust around Attila grew silent, but the ultra-red glared on. Attila stopped waving the limber-swords a moment to allow his tread to hear what was going on. The manipulators holding the limber-swords felt a vibration coming down the haft. When Attila waved the swords again, there was nothing to wave. The sword blades had disintegrated.</p>
+<p>Attila pushed a pink eye out into the ultra-red glare and saw a speckled hide!</p>
+<p>&quot;Give me your sword,&quot; Attila demanded.</p>
+<p>&quot;Yes, O Terrible One,&quot; came the voice, and Letter-Reader's sword sliced through the protruding eye.</p>
+<p>&quot;Avenging-Eye is avenged!&quot; Letter-Reader boasted.</p>
+<p>Attila screamed in agony.</p>
+<p>Crust-Crawler raised his positron beamer. &quot;Let's get this over with.&quot;</p>
+<p>&quot;No!&quot; Dented-Shield said. &quot;He is mine!&quot; She ran up on top of Attila. His body twisted and almost flipped tread upward in an attempt to shake off his assailant. She held him down and drove her short-sword into his brain-knot. Attila's eyeflaps relaxed, and the pink eyes flowed out on the crust as the ultra-red glare from the Eyes of Bright finally faded.</p>
+<p>Dented-Shield picked up a lifeless eye-ball and lopped it from its stub. She went on to the next one.</p>
+<p>&quot;One. Two. Three. Four. Five,&quot; she said. &quot;That takes care of what you owe me. Now for the elders that stood with me.&quot; She continued around the flowing body until she came to the last eye. Crust-Crawler was holding it in a manipulator and had a small slicer ready.</p>
+<p>&quot;I am tired,&quot; Dented-Shield said. &quot;You can have that one.&quot;</p>
+<p>&quot;This is for Qui-Qui.&quot; And Crust-Crawler sliced the last eye-ball from the Emperor of Dragon's Egg.</p>
+<p>&quot;Who is Qui-Qui?&quot; Dented-Shield asked.</p>
+<p>&quot;Someone I knew long ago,&quot; he said.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="emperor4.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="emperor6.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="emperor4.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="emperor6.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

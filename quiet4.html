@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>06:57:52 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html" class="active">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="065752-gmt-tuesday-21-june-2050"><a class="header" href="#065752-gmt-tuesday-21-june-2050">06:57:52 GMT TUESDAY 21 JUNE 2050</a></h1>
+<p>Qui-Qui was surprised when she received a letter from the rejuvenation selection committee. She sent her acceptance message at once, then called her manager, Grey-Stone.</p>
+<p>The picture over the video link was that of a small middle-aged male painted in the bright diagonal stripes that went out of fashion 20 greats ago. The already rapidly moving eye-wave pattern became even more agitated as he recognized his famous client.</p>
+<p>&quot;What problem have you got now?&quot; said Grey-Stone. &quot;You never call me unless you've got a problem.&quot;</p>
+<p>&quot;No problem at all,&quot; said Qui-Qui. &quot;It's good news. I have been selected by the rejuvenation committee for treatment. Of course, the treatment takes a half-great.&quot;</p>
+<p>&quot;A <em>half-great!&quot;</em> came the loud reply over the video link. &quot;You don't have a half-great free on your schedule until 2899!&quot;</p>
+<p>&quot;I do now,&quot; she replied. &quot;I go west for the final interview and tests two turns from now. Unless they find something that disqualifies me, I start treatment immediately after that.&quot;</p>
+<p>&quot;But your contracts ...&quot; Grey-Stone said.</p>
+<p>&quot;Renegotiate them,&quot; she replied. &quot;Just remind them they will be getting the experience of an old, flabby Qui-Qui in the body of a young, firm Qui-Qui.&quot;</p>
+<p>She watched the traveling wave motion in Grey-Stone's eye-stubs slow to almost a complete halt as he pictured the image she had created.</p>
+<p>&quot;At twice the original fee!&quot; he finally said.</p>
+<p>&quot;That's why I have you for my manager,&quot; she replied with a rippling overtone in her tread. &quot;There is nothing too audacious for Grey-Stone.&quot;</p>
+<p>She paused, and her eye-stubs stood still while she rippled her bountiful eye-flaps in her famous gesture of shocked, innocent bewilderment.</p>
+<p>&quot;Of course ... it could be ... ,&quot; she said, the ripples of her eye-flaps coming to a stop. &quot;That ... the treatment leaves me flat.&quot; She flicked off the video with a chirp of amusement as Grey-Stone's eyes stood straight up in shock.</p>
+<p>Qui-Qui programmed her housekeepers to keep her three compounds in shape while she was gone and took the Jump Loop to the West Pole Rejuvenation Center. She had been assigned there to be close to her clan home of White Rock City. At the Rejuvenation Center she had no problem passing all the physical examinations. The last step was a final interview with the senior physician in charge of the Center, Sabin-Salk. During the examinations, Qui-Qui had had plenty of time to think. Now she had some questions.</p>
+<p>&quot;What I don't understand,&quot; she said, &quot;was why I was selected instead of some scientist or writer or musician or politician?&quot;</p>
+<p>&quot;According to our evaluation, you happen to be one of the best cheela ever laid on Egg,&quot; Sabin-Salk said matter-of-factly. &quot;You are an expert in communication with other cheela. With a different background or training you too could have been a</p>
+<p>writer or a musician or a politician, perhaps even a scientist, in fact, if it weren't that you are too honest to deceive people, with your intelligence, good looks, and charisma, you could probably even convince people you were a god and start a new religious cult.&quot;</p>
+<p>&quot;But all I am is an entertainer,&quot; she protested.</p>
+<p>&quot;I don't think even you believe that,&quot; he said. &quot;To the average holovid viewer you are nothing but twelve big eye-flaps. But those who have talked with you know that behind those eye-flaps is one of the tightest brain-knots on Egg. You have a lot of friends in large compounds. Your choice was no accident.</p>
+<p>&quot;Now, let me take you around the treatment facility and show you what you must undergo. The procedure will not be easy.&quot; They entered the first compound where there were a couple of robotic attendants and a lot of exercise equipment.</p>
+<p>&quot;First we must exercise you and feed you until you have built up a good supply of flesh in your body. The dissolver enzymes will use that as the building material to produce support structures in the intermediate plant body. Those support structures must be of high quality or they will break in the strong gravity of Egg.&quot;</p>
+<p>Qui-Qui noticed someone exercising under the guidance of a robot in the far corner of the room. It was a large male, almost as large as she was. The robot spoke something to the male, who muttered curses as he increased the tempo of his exercise.</p>
+<p>&quot;Who is that?&quot; asked Qui-Qui.</p>
+<p>&quot;It is Engineer Cliff-Web. He owns Web Construction Company.&quot;</p>
+<p>Qui-Qui's eye-wave pattern slowed in puzzlement. She obviously didn't know who Cliff-Web was.</p>
+<p>&quot;He was the one who built the Space Fountain and the Jumbo Bagel space motor to rescue the Slow Ones,&quot; said Sabin-Salk.</p>
+<p>All of Qui-Qui's eyes turned to look in awe at the engineer.</p>
+<p>&quot;I was selected with someone that important?&quot; she said.</p>
+<p>&quot;Actually, he was in the first selection list,&quot; said Sabin-Salk. &quot;But he is quite a bit older than you and, having been involved with scrollwork much of the time, he was in poor physical condition. He was in the exercise phase for almost 40 turns before he had sufficient muscle tone. Two more turns of starving, and he will be ready for treatment.&quot;</p>
+<p>&quot;Starving!&quot; Qui-Qui gasped. &quot;I thought you said we were fed.&quot;</p>
+<p>&quot;You are fed during the build-up phase,&quot; Sabin-Salk explained. &quot;But we must have your well-muscled body starving and near exhaustion before we inject the animal-plant conversion enzymes. They then activate the dormant genes in you that were left after our evolution from the dragon plants long ago.&quot; He paused and observed her carefully as he continued. &quot;I warned you that it would not be pleasant. If you would rather not take the treatment....&quot;</p>
+<p>&quot;No. I want to go ahead with it,&quot; said Qui-Qui. Her eye-stubs wavered to a halt as she asked her next question. &quot;Will I still be conscious during the burning part?&quot;</p>
+<p>Dr. Sabin-Salk looked bewildered, so she continued.</p>
+<p>&quot;I am of the clan of the Ancient One Swift-Killer, the first cheela in recorded history to undergo rejuvenation. In the hatchling pen I was told how she struggled to climb the East Pole mountains to send the first message to the humans. After sending the message, her exhausted body was severely burned by the heat from an infalling meteorite. The burning caused her body to revert spontaneously to the dragon plant form, where the damage was mended. Later the dragon plant reverted back, and Swift-Killer found she had a new, young body.&quot;</p>
+<p>&quot;Swift-Killer was extremely lucky,&quot; Sabin-Salk stated. &quot;Most cheela who have tried the burning approach to rejuvenation died. The only function of the burning was to shock the body and get it to produce the animal-to-plant conversion enzymes. We do not burn you. Instead we manufacture the enzymes artificially and inject them into you. They dissolve everything in the body except the nerve tissue and the outer layer of skin. That liquid is then used to make the plant.&quot;</p>
+<p>They left the still exercising Cliff-Web and moved on to the next compound. A large array of small machines stood in one corner of the compound, each with two tubes that connected to two larger collecting lines that led to two large tanks. A single robot was tending the machines.</p>
+<p>&quot;Those machines produce both the animal-to-plant and the plant-to-animal enzymes,&quot; said Sabin-Salk. &quot;It takes all those machines about 18 turns before we have enough for one rejuvenation.&quot;</p>
+<p>&quot;Only one patient every 18 turns?&quot; exclaimed Qui-Qui. &quot;Surely you could handle more than that!&quot;</p>
+<p>&quot;We will,&quot; Sabin-Salk told her. &quot;As more of the enzyme producing machines are produced, we will increase the treatment rate to at least one per turn. It will take some time though, since the other centers are also awaiting machines.&quot;</p>
+<p>&quot;They don't look very large,&quot; said Qui-Qui. &quot;You would think there would be plenty of money available for the production of rejuvenation machines. I guess they are complicated inside.&quot;</p>
+<p>&quot;The problem isn't money or the difficulty of making the machines,&quot; said Sabin-Salk. &quot;The process for producing the enzyme requires the use of a rare catalyst. It is a neutron-rich isotope found only in trace amounts in the lava shield from the Exodus volcano. Since the volcano is still quite active, mining the lava is extremely hazardous. It will take a dozen greats before we have enough of the catalyst to reach full capacity. Let us go on to the 'garden.' &quot;</p>
+<p>They moved to the next compound. In the center of the compound were two very large dragon plants. They were of the single-root, inverted-canopy type similar to a parasol plant, but much larger. One of them was still growing and had a small crowd of robots and two live cheela attending it. The cheela had large medical badges in their hides with extra stars and colored spots to indicate their advanced degrees.</p>
+<p>&quot;That is what you will look like in 30 to 36 turns if you do your exercises properly.&quot; Sabin-Salk motioned to the plants with a flick of his eye-stubs.</p>
+<p>&quot;Who were they?&quot; Qui-Qui asked in a subdued electronic whisper.</p>
+<p><em>&quot;Are</em> they,&quot; Sabin-Salk corrected. &quot;You would know them if I told you, but our policy is not to identify the plant form to strangers. Cheela do not mind being pointed out if they are wearing their body paint and badges, but you put all that aside when you are a plant. The larger plant is almost ready for re-constitution. We will let it mature for two more turns, then inject the plant-to-animal conversion enzyme. The reverse process only takes a few turns. The plant support structures are turned into fluid and used to rebuild the body. At the very last stage, the old outer skin peels off and the newly formed eyes come out from under their eye-flaps.&quot;</p>
+<p>&quot;Is everything the way it was before, except younger?&quot; asked Qui-Qui.</p>
+<p>&quot;Everything except the brain-knot and the rest of the nerve tissue, since they are not touched by the animal-to-plant enzymes. Except for a blank period during the rejuvenation process, the memory and brain function of the new body is identical to that of the old.&quot; He paused and deliberately looked off in the distance as he continued. &quot;Since you are a professional holovid performer, I am sure you are interested in what your new body will look like. I can assure you and all your loyal holovid viewers that the rebuilt body will use the same genetic tri-string that made the original Qui-Qui, and the new Qui-Qui will take up just as much volume on the holovid as the old one.&quot;</p>
+<p>A directional call signal vibrated through the crust that tickled the outer edge of Qui-Qui's tread as it focused in on the position of Sabin-Salk.</p>
+<p>&quot;An Elder from your clan has arrived to approve the final scrollwork,&quot; Sabin-Salk said. &quot;If you will follow along behind, I will spread the way to my office.&quot;</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="quiet3.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="quiet5.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="quiet3.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="quiet5.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

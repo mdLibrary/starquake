@@ -1,0 +1,321 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>06:53:40 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html" class="active">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="065340-gmt-tuesday-21-june-2050"><a class="header" href="#065340-gmt-tuesday-21-june-2050">06:53:40 GMT TUESDAY 21 JUNE 2050</a></h1>
+<p>An intermittent buzzing sound radiated through the crust. Cliff-Web tried to ignore it and continued with the pleasurable task of setting out tiny parasol plants in a border around his back garden to replace the old ones that had gone to seed. He pulled up the old plants and put them in a pile for Moving-Sand to haul away, then replaced them with new little shoots. They were a new variety he and Moving-Sand were developing from a mutant form he had discovered on his last engineering job.</p>
+<p>The normal parasol plant had twelve supporting rods that grew up and out from the single tap root to support the reddish, cool concave top surface that radiated to the sky. These shoots had twenty-four rods. The doubling was not simple, however, but was more like two plant skeletons trying to exist under the same skin, for the glowing pollen tips of the cantilevered rods alternated in sex and color. Normal parasol plants slowly pulsed with time, the pollen tips turning from deep red-black to a bright white-hot glow, then back again. The two sets of tips on the double parasol were out of phase. While one set was dark, the alternate set was bright, producing a pleasing blinking effect.</p>
+<p>The buzzing persisted.</p>
+<p>&quot;Moving-Sand,&quot; he hollered into the crust. &quot;Can you answer that for me?&quot;</p>
+<p>&quot;You get it. I'm busy cleaning out the Slink rooms,&quot; came a voice from the rear of the compound.</p>
+<p>With a shrug, Cliff-Web emptied out his gardening pouch, wiped his manipulator on a wiper, dissolved the stubby, bony</p>
+<p>arm back into his body, and made his way to his study. The buzzing grew louder as he entered the room. Lassie was still resting in the warm corner of the room. He glided onto the taste-plate in the floor, and a portion of his undertread touched the <em>ANSWER</em> square on the screen. It was Admiral Star-Glider, head of the Slow One Rescue Expedition. The picture was speckled with white spots again. He would have to call the video-link company and get them to find the bad spot in the X-ray fiber cable to his compound.</p>
+<p>&quot;Turn on your holovid to the public services channel,&quot; said Star-Glider. &quot;The legislature is winding up its debate on the funding for the Jumbo Bagel. There should be a tally soon, and then we will be able to start work.&quot;</p>
+<p>&quot;Seeing&quot; Star-Glider through the ultrasensitive taste buds built into his tread, Cliff-Web turned some of his eyes toward a silvery screen set in one wall of his study. He formed a tendril and, reaching to a small console set into the floor, touched some panels. Brief scenes flashed in front of the screen as the planar phased-array antenna embedded in a corner of his compound switched its reception beam to receive a stream of modulated gamma rays coming from a direct broadcast satellite hovering to the west of the Eyes of Bright.</p>
+<p>Four of his eyes looked upward at the pattern of six glowing asteroids hovering over Bright. The pattern was badly askew.</p>
+<p>&quot;The Six Eyes are already way out of their pattern,&quot; said Cliff-Web. &quot;We should have been up there to fix that long ago. After all, we promised we would.&quot;</p>
+<p>&quot;Well, politicians like to make promises,&quot; Star-Glider replied. &quot;But when it comes to appropriating money for it, they seem to feel they can take their time, especially in cases like this one, where there is no real urgency. We have plenty of time.&quot;</p>
+<p>&quot;We did have plenty of time when the accident happened,&quot; Cliff-Web reminded him. &quot;But the politicians have fooled around for six greats of turns trying to find a cheaper way to do it. My engineers and I have done our best, but there is no way we can build that giant inertia drive engine and get it up into space for less than a billion stars, and the longer they wait, the more it is going to cost. How are the humans taking it?&quot;</p>
+<p>&quot;According to Sky-Teacher, they are becoming panicky. He can tell by the overtones in their speech.&quot;</p>
+<p>&quot;What is the present estimate of the time to failure?&quot;</p>
+<p>&quot;It's hard to tell. We have an eight body gravity model that can predict the future positions of the ship and asteroids with respect to Egg fairly accurately, but the real unknown is the strength of the spacecraft hull. The humans are in the process of climbing into their acceleration protection tanks, and they should be safe there for a while. But, I would like to get the rocket fixed before the hull fails so the humans can take the whole ship back up when it is time for them to go. I would guess we have at least two human minutes.&quot;</p>
+<p>&quot;That gives us four greats of turns,&quot; Cliff-Web said. &quot;I should be able to get the drive built in less than two. <em>If</em> we get the money.&quot; He turned his attention to the three-dimensional scene floating above the floor in front of the silvery holovid screen. The legislators had gathered in a large depression in the center of Bright that served as a meeting compound. The place wasn't used very often lately, since most large gatherings for business and entertainment were carried out through multiple communications linkups rather than in person.</p>
+<p>This was the last session of the legislature before the recess for elections, however, and it was traditionally held at the meeting compound. The last item of business left in this great's session was the appropriation of the money to build the giant scale inertia drive engine needed to replace the failing engine on the human herder rocket. The large, doughnut-shaped device had been dubbed the &quot;Jumbo Bagel&quot; by the holovid newscasters. The name came from the engine's resemblance to a confection eaten by the humans. One of the legislators was speaking, and the holocamera zoomed in on the waving eye-stubs as the speaker's pad amplified his tread motions.</p>
+<p>&quot;... I, for one, don't want to go back to my clan just before election and say that we are going to have to raise taxes just to save a bunch of ignorant Slow Ones who were too dumb to build their spacecraft correctly. Let them rescue themselves, I say!&quot;</p>
+<p>&quot;I'm sure my esteemed colleague in the third sextant of the chamber didn't really mean that,&quot; another speaker chided. &quot;We certainly can't blame the Slow Ones for being ignorant. They live so slowly that there is no chance they will ever catch up with us. Yet they are not animals. We cannot ignore their plight and just let them die. After all, they did help us once.&quot;</p>
+<p>&quot;But that was long ago. Back when we were still but savages. We have paid them back in full by filling up their memory crystals with all the advanced technology they could possibly use. We even cleaned out the black holes in their Sun to stop the ice ages they would otherwise have to face. We owe them nothing, I say. Space exploration is dangerous. People—humans and cheela alike—are often killed by unforeseen accidents. These Slow Ones knew they were on a risky mission when they volunteered. They were unlucky and will have to accept their fate. Why should we empty our pouches to save them from their own foolhardiness. I will vote <em>No!&quot;</em></p>
+<p>&quot;He can't be serious!&quot; Cliff-Web exploded in anger. &quot;We can't let those humans die when we could easily save them! He must be playing to the voters. Is there really a chance that those fools won't give us the money?&quot;</p>
+<p>&quot;If it comes to a tally this turn, the appropriation will probably pass, although it will be close,&quot; Star-Glider calculated. &quot;What I am afraid of is that they will decide to put the tally off until after the elections. We will then have a large number of newly elected clan representatives and we will have to go through the whole round of re-educating and re-justifying. It could cost us a full great of turns, and time is getting short....&quot;</p>
+<p>Another cheela moved to a speaker's pad. She had to be leader of the fourth sextant since she came from the frontmost pad of that sextant. Her body was large and firm and she had great presence. The wave-pattern in her eye-stub motions moved slower and slower as she drew the attention of the assembled legislators.</p>
+<p>&quot;The legislator from the first sextant and the legislator from the third sextant are both competent people They have both looked at the same set of facts yet can't seem to agree. I am sure that there are others of you with similar differences of opinion. I would like to propose a compromise position. I recommend that we return this appropriations scroll to the hole in the scroll wall that it came from, and pull it again when the elections are over. By that time we will have more information from our accountants and engineers and we can make a more knowledgeable decision. Perhaps by that time, they will have found a less costly way of carrying out the project.&quot;</p>
+<p>&quot;The humans are in danger, we must act now if we are going to do any good at all!&quot; said a tread from the first sextant. The leader of the fourth sextant paused, formed a pair of tendrils, reached into a pouch, and pulled out a scroll. She placed it on the floor where the gravity held it flat. Lowering one of her eyes near the ground, she proceeded to read.</p>
+<p>&quot;Record of the reports to the Legislative Sub-Group on Space, Communications, and Slow One Interactions. Dated Turn 112 of the 2875th great of turns since Contact. A progress report from the Commander of the Slow One Rescue Expedition, Admiral Star-Glider.&quot; She skipped over a portion, then continued.&quot;</p>
+<p>&quot;I quote Admiral Star-Glider. 'Our analysts estimate the tides will be high enough to tear the hull of the human spacecraft by 2880. The humans can survive in the tidal protection tanks until perhaps 3010.' &quot; she continued. &quot;In a later section ... 'From the time a start is authorized, our engineers estimate that it will take about two greats to make the inertial drive engine and install it in the human rocket.' &quot;</p>
+<p>&quot;We have time. In a few turns it will be just 2876. The humans will be safe for at least four greats, and we only need two greats to complete the task. Surely we can defer a decision for a short period while we go through elections.&quot;</p>
+<p>The leader of the first sextant moved swiftly forward to a speaker's pad. &quot;The distinguished leader of the fourth sextant neglected to continue the quote of the Commander of the Slow One Rescue Expedition. Would she please read the next portion of the report while she has it so conveniently under tread?&quot;</p>
+<p>Her eye-stubs twitching in annoyance, she continued reading. &quot; 'If there is a delay in the start of construction, however, the actual cost may exceed the present estimated cost. To maintain the schedule, a number of fabrication steps will have to be taken in parallel. There is a possibility of error and costly rework may be necessary.' &quot; She raised her eye from the scroll, &quot;Yes, there is risk in delaying the start, but there is risk in starting now and not looking for a less expensive solution. As leader of the fourth sextant, I press for a tally on holing the scroll.&quot;</p>
+<p>&quot;That does it,&quot; Star-Glider muttered. &quot;Once a leader of a sextant presses for a tally, debate stops until the tally is taken. I'm glad she was at least made to read the part about the extra expense, but she covered herself well. This is going to be close. If the tally were yes or no to appropriate the money, then we would probably win, because no one wants to go on scroll as being willing to let the humans die. But there are a lot of yes tallies that would be just as happy to put off a decision until later.&quot;</p>
+<p>The view on the holovid zoomed back to show the legislators moving to their pads, where they touched their tread screens to indicate their tallies. In a glowing rectangle inset in the center of the holovid block, Cliff-Web could see the tally. It had reached 114 <em>Yes</em> and 112 <em>No</em> for holing of the scroll when two more legislators scurried down the ramps and the total was tied at 114 each.</p>
+<p>&quot;There is one legislator missing!&quot; Admiral Star-Glider exclaimed.</p>
+<p>&quot;I see someone in the back.&quot;</p>
+<p>&quot;Bright's Curse!&quot; Admiral Star-Glider quickly identified the missing cheela. &quot;It's Talking-Tread of the fifth sextant. He's bound to tally for holing the scroll. But he's only got three sethturns to get to his voting pad.&quot;</p>
+<p>They watched the legislator moving down the ramp. He was one of the senior legislators, and his pad was down near the center of the meeting bowl.</p>
+<p>&quot;One sethturn left,&quot; Star-Glider whispered. &quot;Just 12 blinks ... 8 .. .7 ... 6 ... 5 ... 4 ... 3 ... 2 ...&quot; A gong rang out and the tally remained tied at 114 <em>Yes</em> and 114 <em>No.</em></p>
+<p>&quot;A tie tally is no tally,&quot; the tally counter announced.</p>
+<p>&quot;We've won!&quot; shouted Star-Glider's image so loudly that Cliff-Web felt his tread tingle. &quot;Pack your pouches. I'll see you at the East Pole Spacecraft Assembly Plant.&quot;</p>
+<p>&quot;Won?&quot; Cliff-Web said. &quot;They haven't even started to take a tally on the appropriation. How can we have won?&quot;</p>
+<p>&quot;Considering how easy it is on the brain-knot of a legislator to postpone things, that last tally was an overwhelming victory. Take my word, when they finally do get around to voting on the appropriations scroll, it will be 3 to 1 in our favor.&quot;</p>
+<p>But Star-Glider was wrong. With the leader of the fourth sextant pressing for a tread tally, the vote was unanimous.</p>
+<p>Cliff-Web turned off the holovid and returned to his gardening. It wouldn't do to leave the border unfinished, and he needed the little bit of peaceful relaxation that came from working the soft crumbled crust with his manipulators before he went off to take personal charge of one of the larger engineering projects his company was undertaking.</p>
+<p>The gardening finished, he returned to his quarters and started to stuff his pouches with the things he would need during his long trip away from the compound.</p>
+<p>&quot;Moving-Sand!&quot; he called. &quot;Where are my engineering badges and body paint? There's bound to be some formal ceremonies and I will have to wear them.&quot;</p>
+<p>&quot;They are still in your travel bag,&quot; said Moving-Sand, bringing the bag to him. &quot;You never unpacked from the last trip. I took out a bunch of dirty wipers that had so much dirt and food stains on them you could use them for compost. There are clean rolls of wipers and some glow-jewels in the lower left hole of your dressing wall.&quot;</p>
+<p>&quot;Just put the wipers in the bag,&quot; said Cliff-Web. 'The glow-jewels can stay. This is a job, not a party.&quot;</p>
+<p>&quot;You <em>will</em> take the glow-jewels,&quot; Moving-Sand insisted. &quot;You'll be visiting the space stations and Topside Platform. <em>You</em> may not think much of yourself, but you're a celebrity to those people. There will be receptions, and you should look like the owner of one of the largest private companies on Egg.&quot; Moving-Sand pulled the radioactive jewels made of neutron-fat uranium crystals out of the hole in the dressing wall. He gave them to Cliff-Web, who watched the jewels for a while as they sparkled with gamma-ray emission from the spontaneously fissioning uranium nuclei, then tucked them into his travel bag. He opened a pouch in his side and tucked the travel bag away in his body. He would have to take it out again when he took the Jump Loop transport. They only allowed a small amount of pouched baggage in the main cabin of the jumpcraft.</p>
+<p>He went to his study, pouched a few instruments and technical scrolls, then gave his robotic office secretary instructions for handling messages. Lassie, having seen her master leave many times before, moved slowly from her resting pad and came over to have him pat her on the eye-stubs. As Cliff-Web patted the balding Slink, he made soft electronic whispering noises to her, while at the same time talking to Moving-Sand with his undertread.</p>
+<p>&quot;It will be at least a half-great before I can take time away from the project to come back for a visit,&quot; he said. &quot;It could be that Lassie will die while I'm gone.&quot;</p>
+<p>&quot;I'll take care of her,&quot; Moving-Sand promised. &quot;The rest of the Slinks will be glad to have something besides Flow-Slow meat in their meat-bins.&quot;</p>
+<p>&quot;Don't feed her to the Slinks,&quot; said Cliff-Web. &quot;She has been my faithful Slink since engineering school. I will eat her myself.&quot;</p>
+<p>&quot;I can't understand you!&quot; Moving-Sand sounded disgusted. &quot;Here you are rich enough to eat prime cheela steaks every day and now you tell me you want to suck old, stringy Slink meat.&quot;</p>
+<p>&quot;I do,&quot; said Cliff-Web. &quot;But perhaps you're right about it being old. Better make ground meat out of the tougher cuts.&quot; He gave Lassie one last pat, picked up his mascot plant Pretty-Web, and flowed out the door, through the courtyard, and out to the street where a robotic glide-car was waiting to take him to the Jump Loop.</p>
+<p>He slid onto the waiting plate of thick metal between the front shield and the rear power unit, and the transparent superconducting shell closed over him. The glide-car rose a few microns and sped down the street, riding on the traveling ripples of magnetic field that it generated in its base plate.</p>
+<p>The passenger terminal for the Jump Loop was on the outskirts of Bright, not far from the ruins of the ancient Holy Temple. There was some restoration work going on there, and Cliff-Web could see the large crust-moving machines working on an eye-mound. The job was one of the few that Web Construction had lost. He and his engineers were used to high-technology jobs and always ended up losing on price for crust-moving projects. The glide-car came to a halt, and Cliff-Web inserted his magnecard in the slot. The glide-car subtracted 8 stars and 64 greths and released him from his temporary transparent prison.</p>
+<p>The terminal was in a tough part of town, so he moved quickly across the street toward the door marked IN. Just as he activated the automatic door with his tread, a small youngling burst through the opening going the wrong way. He was filthy and his decorationless hide had more scars than most soldiers. Holding the door open with his tread, he jabbed a sharp metal pricker at Cliff-Web, who rapidly reversed his tread ripple.</p>
+<p>&quot;That's right, you fat egg-sucker. Move back and you won't get hurt.&quot; He looked back through the door.</p>
+<p>&quot;Crumpled-Tread ... Speckle-Top ... Move it!&quot; he hollered. &quot;The Clankers are right behind you!&quot; Two more street urchins burst through the door; they were even smaller than the gang leader. The littlest one had some costume jewelry and an embroidered wiper she had obviously stolen. She was no more than a hatchling, and Cliff-Web could look down on her topside to see that &quot;Speckle-Top&quot; was indeed covered with spots of different emittance than the rest of her body. The speckled pattern extended to her eyes, some of which were pink instead of the normal dark red.</p>
+<p>Crumpled-Tread gave the gang leader one of the two travel bags he had snatched, and the three street urchins took off in opposite directions. Cliff-Web heard a banging on the closing automatic door and stepped on the activator mat to open the door and let the Public Peace Officer out. Her twelve eyes took everything in at a glance, and she took off after the gang leader, who was still trying to stuff a heavy travel bag in a pouch. Cliff-Web watched her go, but it was obvious that the officer, weighed down with her weapons, badges, and communicator, was not likely to catch the fleet youngling.</p>
+<p>Cliff-Web had been appalled by the size of the smallest thief. In his clan hatchery, a hatchling this size would still be playing with the Old Ones, hearing the ancient stories of the clan heroes and their exploits.</p>
+<p>The little one must be what the social workers called a &quot;dump hatchling.&quot; Its mother was probably a clanless prostitute who left her egg at the local dump. If the egg wasn't eaten by scavengers, the little hatchling had a reasonable chance of living, since newly hatched cheela could feed themselves and there was plenty of food at the dump. Older hatchlings would take the dump hatchlings under their mantle and then teach them to steal for them.</p>
+<p>Just thinking of the poor, unprotected hatchling with its ugly speckled top brought a surge of protective emotion through Cliff-Web's body. He wanted to find that poor hatchling, throw his protective mantle over the ugly scarred body, and feed her, and love her. He wanted....</p>
+<p>Cliff-Web shook himself and drove back the feeling. He couldn't allow his hormones to turn him into an Old One yet. He had a job to do. He flowed through the door and entered the terminal, all business. He found the gate and went through, his magnecard confirming his reservation for the launch. Since the jump-fare was a major expenditure, they had a tread-reader at the gate that verified he was the true owner of the card.</p>
+<p>As he glided onto the long, slender vehicle, an attendant assisted him in depouching his travel bag. Now significantly thinner, he made his way up the narrow aisle and slid sideways into his slot. He raised the panel that would keep his body from slipping out into the aisle during acceleration, pulled out a scroll, and started reading it the hard way in the cramped quarters. He scanned a small portion while he used his tendrils to unroll one end while he rolled up the other.</p>
+<p>The jumpcraft left on time, and he put away the scroll to watch as the clear superconducting shields moved up to enclose the compartments. The vehicle slid down a chute to the start of the Jump Loop proper. The Jump Loop looked like a flattened pipe that traveled along the crust for a while, then slowly raised itself up off the crust into the sky in seeming defiance of the tremendous gravity of Egg. Cliff-Web's aisle mate was a youngling that looked as if he had just left the Combined Clans Engineering Academy in Bright. He was wearing his engineering badges, and they looked newly made.</p>
+<p>&quot;Sure looks impossible, doesn't it,&quot; said the youngling.</p>
+<p>&quot;As if it might fall down,&quot; Cliff-Web responded.</p>
+<p>&quot;Don't worry,&quot; the youngling reassured him. &quot;Everything is perfectly safe. You see, what is holding it up is what you can't see, the super-high-speed band traveling inside the pipe. There is a big underground electromagnetic linear motor in a tunnel to the east of here that is pushing the belt up to high speed and feeding it into the pipe.&quot;</p>
+<p>They felt a bump as the nose of the vehicle started to tip up and they were pushed to the back of their slots.</p>
+<p>&quot;We just passed over the bending magnet that deflected the belt upward,&quot; the youngling engineer explained. &quot;The belt is traveling at nearly a quarter of the speed of light and would go into orbit if it didn't have to carry the weight of the pipe.&quot;</p>
+<p>&quot;Oh. Really?&quot;</p>
+<p>&quot;Yes,&quot; said the engineer. &quot;But don't worry, we're not going into space. The pipe rides on the moving belt using superconducting guides and soon bends the belt over so it is traveling above the surface of Egg. Here we go. Feel the acceleration as the vehicle magnegrips start to couple to the belt?&quot;</p>
+<p>They sank even deeper into their slots as the vehicle started to climb up along the pipe on two tracks of superconducting glide-ways while extracting energy from the highspeed belt inside the pipe. They built up speed, flattened out at 10 meters and moved swiftly down the 2 kilometer long pipe. To their left was an identical pipe carrying the belt on its return journey to the terminal they just left. A sliver shot by on the left track, glowing slightly at the nose.</p>
+<p>&quot;That's an orbital jumpcraft returning from space,&quot; said the young engineer. &quot;The real problem with the jumpcraft is slowing down enough to land. Unlike Earth, the atmosphere on Egg is too thin for aerobraking. Magnetic drag won't work either. It will just melt the jumpcraft. To slow down, they glide along the pipe and put the vehicle energy into the belt. We will take some of that energy back when we leave. Since we don't need to accelerate that much, we will probably transfer to the eastward belt at the half-way station.&quot;</p>
+<p>At the one kilometer point, a switch in the guide-ways sent them in a small loop that turned them to the east. Cliff-Web, having ridden the Jump Loop many times, was able to feel the tiny increase in gravity on his body as the gravity-field generators built into the base of the vehicle were activated. The magnegrips grabbed the belt, and they started accelerating.</p>
+<p>&quot;They're supposed to turn on the gravity first!&quot; the engineer explained, his eye-stubs twitching nervously. &quot;When we leave the end of the loop and fly off, we're in free fall. The gravity has to be on or we'll blow up!&quot;</p>
+<p>&quot;I'm sure the pilot is taking care of things. I understand the gravity generators are quite expensive to operate so he is probably waiting until the last blink.&quot; The vehicle flew off the end of the pipe at a quarter of the speed of light, and they both expanded vertically as the gravity dropped to a mere million gees.</p>
+<p>&quot;Doesn't feel like much, does it?&quot; The youngling was obviously relieved. &quot;But it's enough to keep our electrons from going into orbits around our nuclei and causing our nuclear molecules to break up.&quot;</p>
+<p>The sub-orbital flight one-quarter of the way around Egg only took them two methturns at their near-relativistic velocity. But during that time Cliff-Web heard all about the youngling's new job working on the Jumbo Bagel.</p>
+<p>&quot;This will be the biggest inertia drive engine ever built, and probably the biggest that will <em>ever</em> be built. But Web Construction is the biggest construction company on Egg, and they are big enough to do it. I was sure lucky to get my first job with them. They treat their engineers right if they work hard, and that's what I'm going to do. I'm assigned to the team that will build the launch cradles for the engine segments. Those are the....&quot;</p>
+<p>&quot;I think we are coming to Swift's Climb,&quot; said Cliff-Web.</p>
+<p>The young engineer looked ahead. &quot;The Jump Loop here is shorter than the one at Bright's Heaven,&quot; he said. &quot;They only used it for sub-orbital flights. The one at Bright's Heaven can accelerate vehicles up to half the speed of light, more than enough for escape from Egg.&quot;</p>
+<p>The pilot was using thrusters as he lined up the vehicle with the two long streaks hovering above the crust. Swift's Climb was a blotch in the background with a rectangular street grid that turned random as the city slowly climbed the foothills of the East Pole mountains to the resort areas hidden in the upper valleys. High above them loomed the Space Fountain, a metallic streak that disappeared into the sky many kilometers overhead.</p>
+<p>&quot;That's another project my company is working on,&quot; said the engineer. &quot;Isn't it amazing? It's sort of a vertical jump loop, but it uses a stream of rings instead of a belt.&quot;</p>
+<p>They decelerated down to ground speeds as the vehicle coasted to a halt inside the terminal. The young engineer was already out in the aisle, pushing his way to the travel bag bin. Cliff-Web followed behind, taking his cleft-wort plant out of his pouch and letting it cool off to the sky.</p>
+<p>The youngling looked at the plant with interest. &quot;That plant looks just like the one that Web Construction uses on its signs,&quot; he said. &quot;Well, it was nice talking to you. What will you be doing in Swift's Climb?&quot;</p>
+<p>&quot;Oh, I'll be working on the Jumbo Bagel, too,&quot; said Cliff-Web.</p>
+<p>&quot;You will? What division are you in? Launch Cradle?&quot;</p>
+<p>&quot;No. I take care of long-range planning and finance.&quot;</p>
+<p>&quot;Oh. Well, I guess someone has to do the scrollwork. But the real fun is in the engineering. Eye you some turn,&quot; he said as he pushed his way off through the strong vertical magnetic field that permeated Swift's Climb.</p>
+<p>Cliff-Web felt old as he flowed into the rear slot of the chauffeur-driven company car that was waiting for him in the street.</p>
+<p>&quot;Administration Compound,&quot; he told the driver. &quot;Wait! I've changed my mind. Take me to the Spacecraft Assembly Plant. The scrollwork can wait.&quot;</p>
+<p>While the glide-car was making its way through traffic to the plant on the outskirts of Swift's Climb, Cliff-Web made a call through the mobile communicator to Star-Glider at the Combined Clans Space Center,</p>
+<p>&quot;I've pushed the contract through the bureaucracy at Bright's Heaven and the Space Center,&quot; Star-Glider reported. &quot;It is ready for your tread-print. Where shall I bring it? I want to get started.&quot;</p>
+<p>&quot;We've already started. Why don't you meet me at the assembly plant? I want to see the mock-up before they tear it down to make room for the real thing.&quot;</p>
+<p>The Web Construction Spacecraft Assembly Plant was right on the launch base grounds not far from the Space Center headquarters building, so Star-Glider was there before Cliff-Web arrived.</p>
+<p>&quot;Have a nice jump?&quot; Star-Glider asked politely.</p>
+<p>Cliff-Web paused. &quot;It was ... interesting,&quot; he finally said. &quot;Let's go see the mock-up.&quot;</p>
+<p>The scaffolding surrounding the mock-up could be seen in the distance. They entered through the security gate, then a small glide-car took them on a tour around the giant circular structure.</p>
+<p>&quot;I had the engineers do a full-scale mass model on the mock-up so that we could get the stress scaffolding built correctly. Although the engine will operate in space, we have to assemble and stress it on Egg so that we know it can withstand the operating stresses when we turn it on in space.&quot;</p>
+<p>Star-Glider looked up to see a cheela gliding across a narrow beam high above him as easily as if she were on the crust.</p>
+<p>&quot;How high up is she?&quot; Star-Glider asked.</p>
+<p>&quot;The thickness of the engine is 48 millimeters,&quot; Cliff-Web told him. &quot;So the top of the scaffolding must be about 60 millimeters.&quot;</p>
+<p>&quot;I don't mind looking down from orbit,&quot; said Star-Glider. &quot;But I would never have the nerve to try that.&quot;</p>
+<p>&quot;Few cheela do. We find the best ones are from the White Rock Clan. They spend most of their hatchling time playing around steep cliffs.&quot;</p>
+<p>The glide-car stopped near a break in the structure. One segment of the mock-up had been pulled aside.</p>
+<p>&quot;The engine will be built in twelve segments,&quot; said Cliff-Web. &quot;After stress testing, the segments will be launched separately and reassembled in space.&quot;</p>
+<p>The glide-car moved through the gap in the doughnut-shaped engine and they could see the complex of energy extractors, stress negators, and vortex generators that would manipulate the vacuum itself and extract energy from it, then use that energy to give inertia to the vacuum so that it could be used as reaction mass for the thraster to push against.</p>
+<p>The glide-car stopped near the scaffold elevator, and they took it up to the top viewing platform. Their bodies safely protected behind barriers, they looked down at the 144-millimeter diameter &quot;bagel&quot; with a bite taken out of it.</p>
+<p>&quot;In a great of turns the mock-up will be replaced with the real thing,&quot; Cliff-Web told him.</p>
+<p>&quot;Let's get that contract signed and get going,&quot; said Star-Glider. &quot;The gravity tides are starting to cause noticeable distortions in Dragon Slayer.&quot;</p>
+<p>The fabrication of the twelve segments of the Jumbo Bagel was finished on time, but the stress test brought out a flaw in the design. A power connector failed when the superconducting shield was activated.</p>
+<p>&quot;There are 144 connectors in each segment, and there are twelve segments,&quot; said Cliff-Web. &quot;The rework will take a minimum of 12 cheela-greats and put us 24 turns behind schedule.&quot;</p>
+<p>&quot;I'll go to the Budget Sub-Group of the legislature and ask for an increase in funds,&quot; Star-Glider promised. &quot;I warned them this kind of thing could happen if they delayed on the start. How much do you need?&quot;</p>
+<p>&quot;Nothing,&quot; Cliff-Web replied. &quot;I'll pay the difference out of my own pouch. Just explain to them why we will be late.&quot;</p>
+<p>A half a great later the last of the segments were loaded into the spherically shaped launch cradles that were half scaffolding and half spacecraft. The sphere was hauled to the middle of an open field and placed into a depression at the center. Buried under the ground was a gravity catapult that first levitated the sphere about 100 millimeters above the crust so the inertia drive engines could be activated. Then, engines thrusting, the sphere was tossed into space by a short burst of gravitational repulsion from the gigantic coils buried in the ground.</p>
+<p>&quot;Prom zero to one-third the speed of light in a blink,&quot; Cliff-Web remarked &quot;yet because gravity forces were used, there were hardly any stresses.&quot;</p>
+<p>&quot;Amazing for a machine that old,&quot; Star-Glider said. &quot;Well, shall we follow it up?&quot;</p>
+<p>&quot;I want to inspect the progress on the Space Fountain first,&quot; said Cliff-Web. &quot;I'll see you at the East Pole Space Station.&quot;</p>
+<p>Admiral Star-Glider took advantage of the launch of a newly commissioned scout ship to experience being catapulted into space. The gravity catapult wasn't used for ordinary travel anymore since it cost so much to operate. Cliff-Web checked out the work on the Space Fountain, jumped back to Bright's Heaven, spent a few turns gardening and playing with his pets, then it was back to the Jump Loop for a long jump up to the East Pole Space Station. He and Star-Glider went out on a small cruiser to inspect the installation of the Jumbo Bagel on a converted cargo carrier. They got there just as the last segment was put into place.</p>
+<p>&quot;In a few turns my job will be done and yours will start,&quot; Cliff-Web said.</p>
+<p>&quot;Good,&quot; Star-Glider said. &quot;We're just in time. We have started to see some damage in Dragon Slayer's pressure hull, but it is still intact. The humans have abandoned the communications console and are retreating into the protection tanks.&quot;</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="rescue.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="rescue2.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="rescue.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="rescue2.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

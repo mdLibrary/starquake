@@ -1,0 +1,279 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>07:15:32 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="dedication.html">Acknowledgments</a></li><li class="chapter-item expanded affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="danger.html">Danger</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="rescue.html">Rescue</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quiet.html">Quiet</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="quake.html">Quake!</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="marooned.html">Marooned</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="sacrifice.html">Sacrifice</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice4.html" class="active">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="barbarian.html">Barbarian</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="landing.html">Landing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="emperor.html">Emperor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="escape.html">Escape</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item expanded "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item expanded "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="071532-gmt-tuesday-21-june-2050"><a class="header" href="#071532-gmt-tuesday-21-june-2050">07:15:32 GMT TUESDAY 21 JUNE 2050</a></h1>
+<p>Eighty turns later, Qui-Qui returned from her rejuvenation in her flyer, bringing the rejuvenation robot and the enzyme machine with her. She glided to a landing near the Inner Eye Institute. No one seemed to be around, so Qui-Qui got out to attach the flyer to the tie-bolts. She heard a slithering in the crust, and her eyes saw a number of miniature pet Swifts approaching. She didn't recognize any of them. She had a little bit of food in a carrying pouch and took it out. She formed some tendrils to pat the animals and called them to her.</p>
+<p>The pack of Swifts saw the food, and their slither turned into a charge. Their maws opened, and sharp teeth snapped out into ripping position. Roaring with hunger, they rushed at Qui-</p>
+<p>Qui. She threw the bit of food to one side to distract them, then made a dash for the flyer. The robot watched impassively as she flowed rapidly aboard the flyer and slammed the magnetic shield shut, a manipulator dripping juices where she had fended off one of the beasts.</p>
+<p>Hurt and a little frightened, Qui-Qui became concerned. Something had happened while she was gone. She raised the flyer, flew over the frustrated pack of Swifts, and moved slowly down the streets. The plants that once had flourished on the grounds of the Inner Eye Institute looked untended. All the fruits and pods had been stripped. She came to a compound in the middle of the Institute that looked sealed off. The doors were shut and rocks were placed outside so that it was difficult even to get to the door to open it. The sliding window panels were shut too, and bars were placed across many of the openings. Along the top of the wall was a makeshift coil of wire. Tiny curlicues of light appeared in the middle of the coils as stray nuclei from space spiraled to their death in the super-strong magnetic fields.</p>
+<p>A sliding panel in a barred window moved aside slightly, and a single eye-ball peeked through. The panel was thrust aside and Quick-Writer thrust half his eyestubs through the bars and waved frantically at the rapidly moving flyer. Qui-Qui raised the flyer up over the walls and brought it down inside the closed compound. She was greeted by eight of her former students. Three of them—Quick-Writer, the scribe; Coulomb-Force, the electromagnetic engineer; and Newton-Einstein, the gravitational engineer—were the older ones she had left in charge of the classes. Of the three dozen that had been in advanced classes when she left, there were now only five.</p>
+<p>&quot;It was terrible,&quot; said Coulomb-Force. &quot;Right after you left, Zero-Gauss flowed. Then things got worse.&quot;</p>
+<p>&quot;Actually,&quot; said Quick-Writer. &quot;Things were fairly stable while we went through the ritual of butchering Zero-Gauss and distributing her meat. Most of it went to the hatchlings, since she loved them so. After the ritual distribution, however, things did get worse. Speckle-Top told me to turn off the communicator.&quot;</p>
+<p>&quot;Why?&quot; Qui-Qui asked.</p>
+<p>&quot;She said we shouldn't be paying attention to voices from the sky,&quot; interrupted Coulomb-Force. &quot;Then she started to destroy the communicator, but I said she might get shocked and I would do it for her. I just disconnected it from the power source. Later I got some parts from a store in centertown and smashed them up, then hid the communicator.&quot;</p>
+<p>&quot;She also told the students that they didn't have to attend classes anymore,&quot; said Quick-Writer. &quot;Most of them cheered and went off to play games. A few came to me and asked if they could learn on their own. There were eight. Three were killed in the fights.&quot;</p>
+<p>&quot;Fights!?!&quot;</p>
+<p>&quot;They were terrible,&quot; said Coulomb-Force. &quot;It only took a few turns of nobody working before the food got short. Some of the plain-hides tried to kill a food Slink and got into a fight with the speckled-hides.&quot;</p>
+<p>&quot;It ended with most of the plain-hides being driven off to the east,&quot; said Quick-Writer. &quot;They stripped the plants before they left and managed to hold onto some herds of food Slinks. We went with them at first, but decided our first duty was to the future of Egg and came back to where Coulomb-Force had hidden the communicator. Speckle-Top and the rest of the speckled-hides didn't bother us as long as we kept out of sight.&quot;</p>
+<p>&quot;They obviously didn't like us, though,&quot; said Coulomb-Force. &quot;So we started fortifying this compound. How do you like my magnetic barrier?&quot;</p>
+<p>&quot;Is that the coil across the top of the wall?&quot; Qui-Qui asked.</p>
+<p>&quot;Yes, I've been collecting superconducting wire since I was a hatchling, and it finally found a good use. It sure used up the energy when I charged it, but it keeps us safe from speckles and Swifts alike.&quot;</p>
+<p>&quot;I was attacked by a pack of Swifts when I landed,&quot; said Qui-Qui.</p>
+<p>&quot;There are a lot of wild animals now,&quot; Quick-Writer told her. &quot;All the pets that people used to have are now on their own. I also noticed that the young miniature Swifts and Flow Slows are bigger than the older ones. The hybrid miniaturization process must be a temporary one, since the new generations seem to be reverting.&quot;</p>
+<p>&quot;Where is Speckle-Top now?&quot; Qui-Qui asked. &quot;I didn't see .anyone around when I flew in.&quot;</p>
+<p>&quot;She knew you would be returning shortly,&quot; Quick-Writer replied. &quot;I guess she didn't want to meet you eye-balls to eyeballs, so she and the rest of the speckled-hides left a dozen turns ago. They headed north, taking the food Slinks with them.&quot;</p>
+<p>&quot;We had better get the communicator operational again,&quot; said Qui-Qui. &quot;I should tell this to the spacers.&quot;</p>
+<p>&quot;They already know all about it,&quot; said Coulomb-Force. &quot;I set up the communicator as soon as we secured this compound Newton-Einstein is using it now. I think he is getting instructions from Engineer Cliff-Web.&quot;</p>
+<p>&quot;Follow me and I'll take you there.&quot; Quick-Writer led them through a maze of wall and passages. &quot;Don't go that way,&quot; he said, pointing with his eye-stubs at what looked like the main passageway while turning to his left into what looked like a storage alcove and climbing over some bags of dried nuts.</p>
+<p>&quot;Why?&quot; asked Qui-Qui.</p>
+<p>Coulomb-Force didn't answer, but picked up a heavy nut from a burst bag and rolled it down the corridor. The nut flashed into an incandescent glare of purple-hot plasma.</p>
+<p>&quot;Cliff-Web suggested it,&quot; said Coulomb-Force. &quot;Of course it is more spectacular on a small object like a nut, but it is enough to turn a large cheela into dinner.&quot;</p>
+<p>They worked their way through the maze to the inner compound where Newton-Einstein was at the communicator.</p>
+<p>&quot;Yes. She just arrived,&quot; said Newton-Einstein. &quot;I will give her the directions.&quot;</p>
+<p>Qui-Qui was hoping to hear the familiar voice of Cliff-Web again, but Newton-Einstein had obviously finished the conversation and wasn't willing to wait another two grethturns.</p>
+<p>&quot;Greetings, Teacher Qui-Qui,&quot; Newton-Einstein said, his eye-balls seemingly locked on her newly restored eye-flaps. &quot;Rejuvenation has certainly treated you well. I would be glad to take lessons from you <em>any</em> turn.&quot;</p>
+<p>Qui-Qui now regretted the necessity that had required her to mate with some of the young nubile males so long ago. They grew up so quickly and now seemed so brash.</p>
+<p>&quot;What were the directions from the spacers?&quot; she asked, ignoring his remarks.</p>
+<p>&quot;Cliff-Web now feels that I am properly prepared to evaluate the condition of the gravity catapults on Egg. He suggests that we start with the ones at the West Pole, since they were furthest from the epicenter. Shall we go?&quot; He moved closer and extended an eye-stub out to her.</p>
+<p>&quot;We will bring Coulomb-Force along with us,&quot; said Qui-Qui, taking charge once again.</p>
+<p>&quot;Why?&quot; Newton-Einstein asked. &quot;He knows nothing about gravitational engineering. Besides, he is needed here to keep the power generators running.&quot;</p>
+<p>&quot;I brought a robot to take care of the power generators,&quot; Qui-Qui explained. &quot;You forget that a gravity catapult also needs a power plant. While you are checking out the status of the gravity catapult, Coulomb-Force can be finding out if we have some way to run it.&quot;</p>
+<p>&quot;If you say so.&quot; Newton-Einstein was obviously disappointed that he wouldn't be taking the trip alone with Qui-Qui.</p>
+<p>&quot;Show me the rest of the compound.&quot; Qui-Qui started off down a corridor that had alternating stripes of dust and hard rock on the floor. &quot;Then we should be on our way.&quot; Quick-Writer hurried to block her path.</p>
+<p>&quot;We don't have this one activated,&quot; said Quick-Writer. &quot;But you should learn what those alternating stripes in the dust mean when you come across them in the maze.&quot;</p>
+<p>&quot;Another shock treatment?&quot; asked Qui-Qui.</p>
+<p>&quot;Worse,&quot; said Quick-Writer. He pressed a portion of a picture on the wall in a coded pattern to activate the trap.</p>
+<p>&quot;Careful,&quot; warned Coulomb-Force.</p>
+<p>&quot;Sooner or later we are going to have to learn to do this with our eyes under flaps,&quot; said Quick-Writer. He didn't pull in his eyes, but moved quickly over the striped pattern on the floor, his tread developing an exaggerated rippled that allowed his tread to touch the hard crust, but bridged over the undisturbed dusty portions. Safely on the other side, he rolled a nut back across the path. An explosion from a tube buried in the crust at the middle of the striped pattern sent a heavy weight up into the sky, trailing a thin, tough fiber. The weight fell back down, just to one side of the firing tube. It sank deep into the crust, carrying the end of the fiber with it. The sides of the hole glowed from the impact.</p>
+<p>Qui-Qui looked at the two holes in the crust connected by a tough fiber, then looked at Quick-Writer.</p>
+<p>&quot;Those Zebu barriers are all through the compound,&quot; said Quick-Writer. &quot;Only the outer ones are activated all the time. If the high speed weight doesn't damage your brain-knot, then the fiber will stitch you to the crust until we get there to cut you loose.&quot;</p>
+<p>Quick-Writer deactivated the barrier, and Qui-Qui tried to cross with the required exaggerated ripple. She made it across with only one buzz from the training monitor.</p>
+<p>Before they left, Qui-Qui took the flyer up on a high trajectory to look around. There were some large herds off in the distance to the north, but no danger nearby. Coulomb-Force obviously enjoyed the experience of flying, but Newton-Einstein came down with all twelve eye-balls tucked under pale eyeflaps.</p>
+<p>Leaving Quick-Writer in charge of the compound, Qui-Qui, Newton-Einstein, and Coulomb-Force set off for the West Pole, gliding just above the crust. One of the gravity catapults was not far from White Rock City. Qui-Qui had been taken to the catapult site for a visit when she was in creche-school.</p>
+<p>As they approached the site, Coulomb-Force had Qui-Qui stop. &quot;There is a major power conduit running alongside the road. The conduit joined the road just a meter or so back. I think it came from that power plant over next to those foothills.&quot; He flicked his eye-stubs to the north.</p>
+<p>&quot;We might as well look at it while we are here,&quot; said Qui-Qui. She turned the flyer to the north, raised the elevation to a few centimeters so she would pass easily over the deserted homes and office compounds, and headed for the artificial mound off in the distance.</p>
+<p>The power plant was in surprisingly good shape. During the starquake, the crust motions had bounced back and forth through the chaotic pattern of mountain roots at the West Pole and had nearly cancelled out at the site of the plant Qui-Qui was so pleased with their find that she went back to the food lockers in her flyer and brought out a bag of sparkling wine to help pass away the time while they waited for the West Pole Space Station to respond. While they were traveling over the surface, Cliff-Web had orbited to the West Pole Space Station to keep the communications delay down.</p>
+<p>&quot;I'm glad to hear that most of the power equipment looks in good shape,&quot; Cliff-Web said. &quot;The first thing to do is to connect the power circuits of the flyer to the control console. Hopefully we will find some power units that were shut down by the safety monitors before the units were damaged by the starquake. Let me know what the status board says and what you plan to do before you activate anything. We don't have any ground power experts up here, but our spaceship power plant engineers may have some suggestions.&quot;</p>
+<p>It took most of the rest of the turn to maneuver the flyer into the power plant compound and activate the control console. There were a few blinking bright blue-hot lights that indicated</p>
+<p>unit failures, but most of the board glowed a cool red under the word <em>READY.</em></p>
+<p>'The pressure readings on four of the power wells are above minimum,&quot; Coulomb-Force reported. &quot;The other two read zero. Must be breaks in the casing, because the pressure cap connectors have no cracks. I'm going to activate well number 2, run the flow through the distribution manifold to motor-generator number 2 and see what happens.&quot;</p>
+<p>There were no objections from above, so Coulomb-Force pressed the <em>ACTIVATE</em> button on the console and the pressure cap on power well 2 opened and allowed the high-pressure, neutron-rich fluid from deep inside Egg to flow to the distribution manifold. The valves held and the pressure gauges on the manifold rose. He then activated another button and the flow surged into the motor-generator. A deep rumble vibrated through the crust and rose to a steady hum.</p>
+<p>&quot;We have power!&quot; Coulomb-Force shouted. &quot;We are on our way!&quot;</p>
+<p>Qui-Qui reported the good news through the communications link, then switched the power circuits connecting the console to the flyer so the accumulators would be charging instead of discharging.</p>
+<p>Two more bags of White Rock City sparkling wine and a friendly three-way tussle in the cushioned, but cramped, back compartment of the flyer left them all exhausted. It was a full turn before they left the power plant, the flyer following the power conduit to the site of the gravity catapult a few meters away.</p>
+<p>&quot;The catapult looks all right to me,&quot; said Newton-Einstein as they raised the flyer up and circled above the gigantic torus lying half-buried in the crust.</p>
+<p>&quot;Wouldn't it lose the ultra-dense fluid in the pipes if the power failed?&quot; Coulomb-Force asked.</p>
+<p>&quot;No,&quot; said Newton-Einstein. &quot;The fluid is really monopole stabilized black-hole dust. It is highly magnetic and the tubes are made of high temperature superconductor. Even without power, the tubes keep the black-hole dust contained.&quot;</p>
+<p>They landed outside the catapult control compound and went in.</p>
+<p>&quot;We're in luck!&quot; Coulomb-Force was looking over at a glowing light above a large power breaker in one corner. &quot;The conduits from the power plant are intact, and we have power! Let's activate the console and check out the status of the catapult.&quot; He closed the tripped power breaker and the console lights went on. The board was a steady deep red except for a blinking blue failure light in one corner.</p>
+<p>Newton-Einstein glided to the console, and the wave motion in his eye-stubs came to a complete halt as he read the engraved inscription above the blinking blue-hot light.</p>
+<p>Worried, Qui-Qui flowed over next to him.</p>
+<p>&quot;What's the matter?&quot; she asked.</p>
+<p>&quot;There was a leak; the ultra-dense dust is gone.&quot;</p>
+<p>They went around the outside of the catapult and found the leak. There was a small funnel-shaped hole in the crust near the base of the foundation where the jet of black-hole dust had dropped into Egg, pulling the crust with it.</p>
+<p>&quot;The catapult must have been working when the starquake hit,&quot; said Newton-Einstein. &quot;The dust was circling the torus at high speed and all of it shot out of the hole. If it had not been operating, we would have only lost one loop's worth. We could have patched the leak and operated the catapult on the rest.&quot;</p>
+<p>&quot;Well, there are three more catapults here at the West Pole,&quot; said Qui-Qui. &quot;Let's go look at them.&quot;</p>
+<p>&quot;I hope their power plants are working,&quot; Coulomb-Force said. &quot;I don't think we could count on the interconnect power conduits to be unbroken over those long distances.&quot;</p>
+<p>They didn't even bother to stop at the next gravity catapult. A major break in the crust had torn the large torus into two half-circles. Two turns later Newton-Einstein reported up to the West Pole Space Station. &quot;None of the gravity catapults are operational at the West Pole. We will have to try the East Pole.&quot;</p>
+<p>It was Qui-Qui who reported in from the East Pole. Coulomb-Force and Newton-Einstein were too discouraged.</p>
+<p>&quot;As we suspected, the machines here were even more damaged. Not even one power well remained pressurized. We will just have to learn to make monopole stabilized black-hole dust and recharge the gravity catapult at the West Pole after we fix the leak. It will take us a few greats, since you are going to have to dictate to us in detail how to go about it; but we'll keep working at it.&quot;</p>
+<p>The three waited patiently for the reply. It was from Cliff-Web, now back at East Pole Space Station. &quot;I'm afraid that it is going to take a little longer than a few greats. No one uses monopole stabilized black-hole dust anymore. It hasn't been made for over two dozen generations. We have no information on it up here, since it is an obsolete material. With the library records erased down there, we are going to have to get what information we can from the humans and that will take many minutes, perhaps as much as an hour. Even that information will only be general knowledge. I and the other engineers up here will have to expand that into detailed instructions of how to build the machines to produce and stabilize the black-hole dust, try them out up here on prototypes, then dictate the information down to you. All that will take considerable time.&quot;</p>
+<p>Ignoring the dejected looks of Coulomb-Force and Newton-Einstein, Qui-Qui tried to put a cheerful trill in her tread as she replied. &quot;You had better get busy talking to the humans, then. It always takes them forever to do <em>anything.</em> And while you are at it, ask them to send you a capsule history of that they called the 'Dark Ages.' By knowing how their learned people maintained islands of knowledge while surrounded by ignorance and barbarians, I may learn things that will help me cope with the situation here. Also, does anyone up there know any magic tricks?&quot;</p>
+<p>They returned to the maze at Bright's Heaven. Slowly the information trickled from the HoloMem crystals in the human console to the East Pole Space Station, where it was studied, checked out, and sent on down to the surface below. By the time Coulomb-Force died, he had managed to construct a few more free-space communication sets. Young scribes, chosen for the honor because of their neat script, copied the information from space, and the manuals and textbooks were passed on to others who attempted to build and operate the machines described with their inadequate tools and resources. There were long periods when no information was being dictated, so many of the scrolls were decorated by the bored scribes with elaborate fluorescent illustrations in the spaces along the edges and within the technical diagrams.</p>
+<p>Qui-Qui spent most of her time in the flyer, gathering food and recruits. She was known to the clans around as the glowing God of Youth and Knowledge, the Mother of Egg. She could fly through the sky and talk to the stars. She was forever beautiful and never died.</p>
+<p>Qui-Qui would arrive at each clan cluster flying high above in the sky in her flyer, circling until each individual in the tribe had seen her. She would then skim low to the surface and hover the flyer above the ground next to a large rectangular</p>
+<p>stone altar that the clan had erected and piled high with food offerings. While her acolytes were transferring the food offerings to the flyer on one side, the God of Youth and Knowledge glided out on a nearly invisible crystallium platform on the other side. She seemingly floated in space, while above her flickered brightly colored curlicues of light from compact ion generators she had pouched in her topside.</p>
+<p>Qui-Qui would ask to see the hatchlings and younglings. Then seemingly out of nowhere, she would materialize gifts for the young ones. There were educational toys, special treats (full of important trace elements) to eat, and beginner scrolls to read. Just before the younglings became adults, they were treated to a ride on the flyer back to the Maze Temple at Bright's Heaven, where they were tested. Only a few were chosen to stay. The rest returned to their clans, awed by what they had seen. Once every three dozen greats, Qui-Qui retired to a special room at the sacred center of the maze for a half-great and came back restored to youth.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="sacrifice3.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="sacrifice5.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="sacrifice3.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="sacrifice5.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
