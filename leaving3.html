@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>06:13:54 GMT 21 JUNE 2050 - Starquake</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="index.html">Starquake</a></li><li class="spacer"></li><li class="chapter-item affix "><a href="dedication.html">Acknowledgements</a></li><li class="chapter-item affix "><a href="prelude.html">Prelude</a></li><li class="chapter-item expanded "><a href="leaving.html">Leaving</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="leaving1.html">06:00:00 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="leaving2.html">06:05:06 GMT 21 JUNE 2050</a></li><li class="chapter-item expanded "><a href="leaving3.html" class="active">06:13:54 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="leaving4.html">06:40:10 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="leaving5.html">06:45:10 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="danger.html">Danger</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="danger1.html">06:50:06 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="danger2.html">06:51:05 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="danger3.html">06:51:19 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="danger4.html">06:52:19 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="danger5.html">06:52:20 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="danger6.html">06:53:21 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="rescue.html">Rescue</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="rescue1.html">06:53:40 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="rescue2.html">06:54:00 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="rescue3.html">06:55:05 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="rescue4.html">06:55:06 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="rescue5.html">06:55:07 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="quiet.html">Quiet</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="quiet1.html">06:55:16 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="quiet2.html">06:55:20 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="quiet3.html">06:56:20 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="quiet4.html">06:57:52 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="quiet5.html">06:58:06 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="quake.html">Quake!</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="quake1.html">06:58:07 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="quake2.html">06:58:07.1 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="quake3.html">06:58:07.2 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="marooned.html">Marooned</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="marooned1.html">06:58:07.3 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="marooned2.html">06:58:08 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="marooned3.html">06:58:09 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="marooned4.html">06:58:11 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="marooned5.html">06:58:20 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="marooned6.html">07:02:06 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="marooned7.html">07:03:32 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="sacrifice.html">Sacrifice</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="sacrifice1.html">07:08:13 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="sacrifice2.html">07:12:02 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="sacrifice3.html">07:15:16 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="sacrifice4.html">07:15:32 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="sacrifice5.html">08:26:37 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="sacrifice6.html">09:31:11 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="barbarian.html">Barbarian</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="barbarian1.html">10:10:11 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="barbarian2.html">10:13:14 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="barbarian3.html">10:13:26 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="barbarian4.html">10:13:32 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="barbarian5.html">10:25:02 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="barbarian6.html">20:55:45 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="landing.html">Landing</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="landing1.html">21:00:10 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="landing2.html">21:02:03 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="landing3.html">21:02:20 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="landing4.html">21:02:46 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="emperor.html">Emperor</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="emperor1.html">21:02:58 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="emperor2.html">21:03:12 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="emperor3.html">21:03:45 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="emperor4.html">21:04:15 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="emperor5.html">21:04:16 GMT 21 JUNE 2050</a></li><li class="chapter-item "><a href="emperor6.html">21:04:17 GMT 21 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="escape.html">Escape</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="escape1.html">01:01:10 GMT 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape2.html">01:30:04 GMT 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape3.html">01:30:05 GMT 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape4.html">03:54:50 GMT 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape5.html">03:55:03 GMT 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape6.html">04:02:35 GMT 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape7.html">04:02:39 GMT 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape8.html">04:02:40 GMT 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape9.html">04:02:45 GMT 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape10.html">04:03:01 GMT 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape11.html">05:06 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape12.html">05:15 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape13.html">05:50 CREW TIME 22 JUNE 2050</a></li><li class="chapter-item "><a href="escape14.html">06:00 CREW TIME 22 JUNE 2050</a></li></ol></li><li class="chapter-item "><a href="appendix.html">Technical Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Starquake</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="061354-gmt-tuesday-21-june-2050"><a class="header" href="#061354-gmt-tuesday-21-june-2050">06:13:54 GMT TUESDAY 21 JUNE 2050</a></h2>
+<p>Leaving Amalita talking to Sky-Teacher, Pierre grasped the HoloMem cube at opposite corners and followed Doc and Seiko through the passageway in the floor to the lower deck and pulled himself over to the library console. He moved carefully, for between two fingers he was carrying all the wisdom that the cheela had accumulated during the past thirty minutes. He placed the crystal in its scanner cavity in the library console, fitted the brilliantly polished corner segement into place, and closed the lid. </p>
+<p>Sky-Teacher had said that this latest HoloMem crystal held a large section on the internal structure of neutron stars. Pierre had the computer jump rapidly through the millions of pages until he found a detailed cross section of the interior of Dragon's Egg. The diagram showed that the star had an outer surface that was a solid crust of nuclei: neutron-rich isotopes of iron, zinc, nickel, and other metallic nuclei in a crystalline lattice, through which flowed a liquid sea of electrons. Next came the mantle—two kilometers of neutrons and metallic nuclei in layers that became more neutron-rich and dense with depth.</p>
+<p>The inner three-fourths of the star was a liquid ball of superfluid neutron and superfluid protons. </p>
+<p>Pierre scanned the next page, a photograph of a neutron star, but it wasn't Dragon's Egg. He could tell it was a real photograph, since he could see a portion of a cheela on a space flitter in the foreground. His eyes widened and he rapidly scanned page after page. There were many photographs, each followed by detailed diagrams of the internal structure of the various neutron stars. They ranged the gamut from very dense stars that were almost black holes to large, bloated neutron stars that had a tiny neutron core and a white-dwarf-star exterior. Some of the names were unfamiliar, but others, like the Vela pulsar and the Crab Nebula pulsar, were neutron stars known to humans.</p>
+<p>&quot;But the Crab Nebula neutron star is over 3000 light-years away!&quot; Pierre exclaimed to himself. &quot;They would have had to travel faster than the speed of light to have gone there to take those photographs in the past eight hours!&quot;</p>
+<p>A quick search through the index found the answer.</p>
+<blockquote>
+<p>FASTER-THAN-LIGHT PROPULSION—THE CRYPTO-KEY TO THIS SECTION IS ENGRAVED ON A PYRAMID ON THE THIRD MOON OF THE SECOND PLANET OF EPSILON ERIDANI</p>
+</blockquote>
+<p>There followed a long section of encrypted gibberish.</p>
+<p>In near shock, Pierre set the library console for automatic transfer of the data to St. George and slowly floated over to the nearby lounge at the center bottom of Dragon Slayer. Everyone but Amalita was there. Doc was trying to talk Seiko out of taking some W.A.K.E. pills with her coffee, and Abdul was telling Jean Kelly Thomas about the recent restoration of the Holy Temple as she gulped down a quick breakfast after her shortened sleep period while trying to comb out the snarls in her short cap of red hair at the same time. While Jean and Pierre had been asleep, the cheela had advanced from their first orbital flights around their home world to intergalactic travel.</p>
+<p>Everyone was sitting on the soft, circular lounge seat, held there by the low outward-going residual gravity forces. Occasionally one of them would look out the viewport below his feet. Pierre jumped up to the top of the lounge and held onto the handle in thehatch door leading to one of the six high-gravity protection tanks built into the center of the ship. He too looked down adn out of the one-meter diameter window set in the &quot;south pole&quot; of the spherical spacecraft. The electronically controlled optical shutter had been set to blacken the port thirty times a second as each of the six glowing compensator masses passed in front of the port. The only light that entered the window came from a single intense spot that was Bright–the Sun, their home–2120 AU away.</p>
+<p>Pierre broke the silence. &quot;It's nearly time for us to leave,&quot; he said.</p>
+<p>Jean looked up, her perky freckled nose wrinkled in puzzlement. &quot;I thought the plan was for us to stay down here for at least another week.&quot;</p>
+<p>&quot;With the cheela doing all the mapping and measurements for us, there is really no need for us to stay any longer,&quot; Pierre explained. &quot;You should have read the detailed description of both the exterior and interior of Dragon's Egg in that last HoloMem crystal I brought down.&quot; He swung down an stopped himself at the doorway to the lounge.</p>
+<p>&quot;I had the computer reprogram the herder probes to move us into the path of the deorbiter mass. In about half a day we will be in proper position ot be kicked out of this close obit back up to St. George. Then we can be heading for home instead of looking at it.&quot; He looked up at the clock readout on the lounge wall.</p>
+<p>&quot;Time to change HoloMem crystals again,&quot; he said. He crouched, then flashed a smile at them through his neat, dark brown beard. </p>
+<p>&quot;Come on,&quot; he said, &quot;There is a lot of work to do to get this ship ready. Amalita and I will finish off the last of the HoloMem crystals, but the rest of you had better start buttoning up the ship; the gravity fields from that deorbiter will turn anything loose into a deadly missile.&quot; He jumped upward to the central deck as the others swam through the lounge door and spread out through the ship.</p>
+<p>Pierre swung over to the communications console and looked at Sky-Teacher over Amalita's shoulder. The robot heela was patiently explaining something. Pierre stared in fascination at the image. With the million-to-one time differential, it had not surprised Pierre that the cheela would make a slow-response, long-living robot that could take over the demanding task of talking to the slow-thinking humans. What amazed Pierre was that the robotic creature was so realistic that it had a personality. Sky-Teacher was not robot-like in its mannerisms at all. In fact, it acted very much like a patient, old-time schoolmaster. One could almost hear the friendly smile and the greying hair in the voice. It was a relief to the humans to have Sky-Teacher to talk to. They no longer felt as if they were wasting a good portion of some cheela's lifetime if they made a mistake or paused for a moment.</p>
+<p>&quot;We shortly will have filled up all your available HoloMem crystals,&quot; Sky-Teacher's image said, in its halo of twelve robotic eyes doing a perfect imitation of the traveling wave pattern of a real cheela. &quot;I am afraid that you will find most of this material is encrypted, since we are now the equivalent of many thousands of years ahead of you in development.&quot;</p>
+<p>&quot;Yet, if it had not been for you, we would still be savages, stagnating in an illiterate haze for thousands or even millions of greats of turns. We owe you much, but we must be careful how we pay you back, for you too have a right to grow and develop on your own. For your own good, it is best that we cut off communication after this last HoloMem crystal is full. We have given you enough material to keep you busy learning for thousands of your years. Then we will both be off on our separate ways, seeking truth and knowledge through space and time. You in worlds were the electron is paramount, and we in worlds where the neutron dominates.&quot;</p>
+<p>A tone sounded and a small message appeared on the upper part of the screen.</p>
+<blockquote>
+<p>HOLOMEM CRYSTAL FULL</p>
+</blockquote>
+<p>&quot;You are on your own now,&quot; Sky-Teaher said. &quot;It is drawing near the time for you to leave. Goodbye, my friends.&quot;</p>
+<p>&quot;Goodbye,&quot; Pierre said as the screen blanked. </p>
+<p>He turned to Amalita. &quot;I'll put away the HoloMem crystal, and you start checking out the acceleration tanks,&quot; he said. &quot;It's time to go home!&quot;</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="leaving2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="leaving4.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="leaving2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="leaving4.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
